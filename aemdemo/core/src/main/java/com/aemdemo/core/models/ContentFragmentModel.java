@@ -51,7 +51,7 @@ public class ContentFragmentModel {
 
 	@ValueMapValue
 	@Named("./variationName")
-	@Required
+	//@Required
 	private String variationName;
 
 	@ValueMapValue

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2019-12-29T17:16:23.975+05:30"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/otf/settings/wcm/template-types/base-page"
+        jcr:description="This is Jobs/Career Page Template for Orange Theory Fitness"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Jobs/Career Page Template"
+        status="enabled"/>
+</jcr:root>

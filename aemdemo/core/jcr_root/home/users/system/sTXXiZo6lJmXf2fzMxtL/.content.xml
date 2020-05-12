@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="3165447d-ee32-3744-b202-0ed6e7149ffb"
+    rep:authorizableId="sling-event"
+    rep:principalName="sling-event"/>

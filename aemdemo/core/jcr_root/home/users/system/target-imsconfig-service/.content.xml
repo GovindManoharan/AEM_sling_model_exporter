@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="a8abe3de-2a5a-3b25-9307-e527e4d55dd0"
+    rep:authorizableId="target-imsconfig-service"
+    rep:principalName="target-imsconfig-service"/>

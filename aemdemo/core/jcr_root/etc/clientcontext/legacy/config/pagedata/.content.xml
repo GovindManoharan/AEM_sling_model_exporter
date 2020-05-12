@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <edit
+        jcr:primaryType="nt:unstructured"
+        mode="textfield"
+        title="Page data"/>
+    <ui
+        jcr:primaryType="nt:unstructured"
+        mode="textfield"
+        rank="1"
+        title="Page data"/>
+    <store
+        jcr:primaryType="nt:unstructured"
+        excludedFromStats="[random]"/>
+</jcr:root>

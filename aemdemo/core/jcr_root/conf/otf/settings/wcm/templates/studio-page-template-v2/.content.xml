@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2020-04-01T12:38:05.249Z"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/otf/settings/wcm/template-types/base-page"
+        jcr:description="This is Studio Page Template V2 for Orange Theory Fitness"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Studio Page Template V2"
+        status="enabled"/>
+</jcr:root>

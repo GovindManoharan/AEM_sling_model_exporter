@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="nt:unstructured">
+    <rep:policy/>
+    <jpeg
+        jcr:primaryType="nt:unstructured"
+        exposedmimetype="image/jpeg"
+        mimetypes="[image/pjpeg]"/>
+    <tiff
+        jcr:primaryType="nt:unstructured"
+        exposedmimetype="image/tiff"
+        mimetypes="[image/x-tiff]"/>
+    <pdf
+        jcr:primaryType="nt:unstructured"
+        exposedmimetype="application/pdf"
+        mimetypes="[application/postscript]"/>
+    <carouselset
+        jcr:primaryType="nt:unstructured"
+        exposedmimetype="application/x-CarouselSet"
+        mimetypes="[Multipart/Related; type=application/x-CarouselSet]"/>
+    <imageset
+        jcr:primaryType="nt:unstructured"
+        exposedmimetype="application/x-ImageSet"
+        mimetypes="[Multipart/Related; type=application/x-ImageSet]"/>
+    <spinset
+        jcr:primaryType="nt:unstructured"
+        exposedmimetype="application/x-SpinSet"
+        mimetypes="[Multipart/Related; type=application/x-SpinSet]"/>
+    <mediaset
+        jcr:primaryType="nt:unstructured"
+        exposedmimetype="application/x-MixedMediaSet"
+        mimetypes="[Multipart/Related; type=application/x-MixedMediaSet]"/>
+    <mov
+        jcr:primaryType="nt:unstructured"
+        exposedmimetype="video/quicktime"
+        mimetypes="[video/x-quicktime]"/>
+    <mpeg4
+        jcr:primaryType="nt:unstructured"
+        exposedmimetype="video/mpeg4"
+        mimetypes="[video/mp4]"/>
+    <avi
+        jcr:primaryType="nt:unstructured"
+        exposedmimetype="video/avi"
+        mimetypes="[video/avi\, video/msvideo\, video/x-msvideo]"/>
+    <wmv
+        jcr:primaryType="nt:unstructured"
+        exposedmimetype="video/wmv"
+        mimetypes="[video/x-ms-wmv]"/>
+    <flv
+        jcr:primaryType="nt:unstructured"
+        exposedmimetype="video/flv"
+        mimetypes="[video/x-flv]"/>
+    <dmvideo
+        jcr:primaryType="nt:unstructured"
+        exposedmimetype="dm_video"
+        mimetypes="[dm_video/x-ms-wmv,dm_video/quicktime,dm_video/mp4]"/>
+</jcr:root>

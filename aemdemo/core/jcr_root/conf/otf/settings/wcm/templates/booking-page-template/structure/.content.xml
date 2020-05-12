@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2020-04-01T12:18:24.846+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/otf/settings/wcm/templates/booking-page-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="otf/components/structure/bookingpage">
+        <root
+            jcr:lastModified="{Date}2020-04-01T12:25:26.285+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <booking
+                jcr:created="{Date}2020-04-01T12:18:24.843+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-04-01T12:24:13.814+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="otf/components/content/organism/booking/v1/booking"
+                editable="{Boolean}true"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

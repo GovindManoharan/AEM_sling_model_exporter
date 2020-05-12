@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:configTemplate="/libs/cq/translation/templates/msft/msft-servicepage"
+        cq:lastModified="{Date}2020-05-04T15:20:10.283-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="Microsoft Translation Connector"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Microsoft Translator"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        allowMultiple="{Boolean}true"
+        configsPath="[/conf/wknd-mobile/settings/cloudconfigs/translation/msft-translation,/conf/global/settings/cloudconfigs/translation/msft-translation]"
+        connectedWhen="subscriptionkey"
+        defaultName="msft-translation"
+        description="Instantly translate your site into any of more than 40 languages.  Machine Translation is integrated into Social Communities and automatic translation workflows.  Keep translated content up-to-date automatically.  Customize your translation system to your organization’s terminology and style.  A limited trial is included, you may upgrade to a full-featured subscription at any time."
+        descriptionExtended="Microsoft Translator provides automatic translation of text into a specified language. It is a state-of-the-art statistical machine translation system, translating between any of more than 40 languages, and powering billions of translations every day."
+        descriptionPath="/libs/cq/translation/cloudservices/components/msft-connector/description.html"
+        editformPath="/libs/cq/translation/cloudservices/components/msft-connector/editform.html"
+        inclusionRank="{Long}10"
+        mergeList="true"
+        ranking="10"
+        serviceAdminUrl="http://aka.ms/translatoraemsignup"
+        serviceUrl="http://aka.ms/translatoraemsignup"
+        serviceUrlLabel="Microsoft Translator"
+        thumbnailPath="/libs/cq/translation/templates/msft/msft-servicepage/thumbnail.png"/>
+    <OTFDEMOTranslation/>
+</jcr:root>

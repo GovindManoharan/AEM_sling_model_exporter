@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="450f4b30-88d1-3fbd-ab7b-f9ff602ec2f9"
+    rep:authorizableId="canvaspage-activate-service"
+    rep:principalName="canvaspage-activate-service"/>

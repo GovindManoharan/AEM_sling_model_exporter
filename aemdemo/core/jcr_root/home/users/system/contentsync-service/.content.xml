@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="f428b031-e89c-3dc8-9064-4f9527650c3f"
+    rep:authorizableId="contentsync-service"
+    rep:principalName="contentsync-service"/>

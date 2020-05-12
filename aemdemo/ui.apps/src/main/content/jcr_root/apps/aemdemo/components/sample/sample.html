@@ -1,0 +1,22 @@
+
+<div class="cmp-helloworld" data-cmp-is="helloworld">
+	<h2 class="cmp-helloworld__title">Sample Sites AEM component. Edit
+		here to capture title and description</h2>
+
+	<sly
+		data-sly-use.sampleComponent="com.aemdemo.core.models.SampleModelExporter">
+	<div class="cmp-helloworld__item">
+		<p class="cmp-helloworld__item-label">Title :</p>
+		<pre class="cmp-helloworld__item-output"
+			data-cmp-hook-helloworld="property">${sampleComponent.title}</pre>
+	</div>
+
+	<div class="cmp-helloworld__item">
+		<p class="cmp-helloworld__item-label">Rich text Description :</p>
+		<pre class="cmp-helloworld__item-output"
+			data-cmp-hook-helloworld="property">${sampleComponent.description}</pre>
+	</div>
+	</sly>
+
+</div>
+

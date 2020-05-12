@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="99edb110-eff5-3f0a-9616-801fccfd58a2"
+    rep:authorizableId="community-community-rqlgn-hiking-rcauu-moderators"
+    rep:members="{WeakReference}[676b7f8d-04ff-3f9f-83ff-04f9471447d2,75dffaf7-d967-370a-ad0e-ed423140531c]"
+    rep:principalName="community-community-rqlgn-hiking-rcauu-moderators"
+    liveCopyPath="/content/we-retail/us/en/community/groups/hiking">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        givenName="Community Community Hiking Rcauu Moderators"/>
+</jcr:root>

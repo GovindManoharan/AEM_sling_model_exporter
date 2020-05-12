@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="f6dd23d6-2d34-30b6-bc0a-d917a3b83a9e"
+    rep:authorizableId="translation-preview-service"
+    rep:principalName="translation-preview-service"/>

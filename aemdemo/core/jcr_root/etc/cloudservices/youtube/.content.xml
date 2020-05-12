@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-09-26T11:32:11.677Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="Configure YouTube"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="YouTube"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        allowMultiple="{Boolean}false"
+        connectedWhen="jsonConfigValue"
+        description="YouTube is the leading online video sharing site."
+        ranking="10"
+        serviceAdminUrl="http://www.youtube.com"
+        serviceUrl="http://www.adobe.com/go/learn_dynamic_media"
+        thumbnailPath="/libs/dam/templates/youtube/thumbnail.png"
+        visible="{Boolean}true"/>
+    <rep:policy/>
+</jcr:root>

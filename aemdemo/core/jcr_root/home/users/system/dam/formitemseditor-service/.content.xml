@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="ba18ae78-648f-3f95-b599-4f33ce15bfc4"
+    rep:authorizableId="dam-formitemseditor-service"
+    rep:principalName="dam-formitemseditor-service"/>

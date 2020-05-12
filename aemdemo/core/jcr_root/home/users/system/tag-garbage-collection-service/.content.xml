@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="810248ab-e327-3e38-a0c5-b0df8ca28a68"
+    rep:authorizableId="tag-garbage-collection-service"
+    rep:principalName="tag-garbage-collection-service"/>

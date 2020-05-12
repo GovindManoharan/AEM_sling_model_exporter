@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Template"
+    allowedPaths="[/content/entities(/.*)?]"
+    ranking="{Long}100">
+    <jcr:content
+        cq:lastModified="{Date}2019-07-29T11:53:08.999-04:00"
+        cq:lastModifiedBy="admin"
+        cq:scaffolding="/conf/wknd-mobile/settings/dam/cfm/models/event/jcr:content/model"
+        cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
+        jcr:description="WKND Event Content Fragment Model"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Event"
+        sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
+        sling:resourceType="dam/cfm/models/console/components/data/entity/default">
+        <model
+            cq:targetPath="/content/entities"
+            jcr:primaryType="cq:PageContent"
+            sling:resourceType="wcm/scaffolding/components/scaffolding"
+            dataTypesConfig="/mnt/overlay/settings/dam/cfm/models/formbuilderconfig/datatypes"
+            maxGeneratedOrder="20">
+            <cq:dialog
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/gui/components/authoring/dialog">
+                <content
+                    jcr:lastModified="{Date}2019-07-29T11:53:08.999-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+                    <items
+                        jcr:primaryType="nt:unstructured"
+                        maxGeneratedOrder="20">
+                        <_x0031_563999224191
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Event Title"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="eventTitle"
+                            renderReadOnly="false"
+                            required="on"
+                            showEmptyInReadOnly="true"
+                            valueType="string"/>
+                        <_x0031_563999246218
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
+                            cfm-element="Event Description"
+                            default-mime-type="text/html"
+                            listOrder="2"
+                            metaType="text-multi"
+                            name="eventDescription"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string"/>
+                        <_x0031_563999264181
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/datepicker"
+                            displayedFormat="YYYY-MM-DD HH:mm"
+                            emptyText="YYYY-MM-DD HH:mm"
+                            fieldLabel="Event Date and Time"
+                            listOrder="5"
+                            metaType="date"
+                            name="eventDateAndTime"
+                            renderReadOnly="false"
+                            required="on"
+                            showEmptyInReadOnly="true"
+                            type="datetime"
+                            valueFormat="YYYY-MM-DD[T]HH:mm:ss.000Z"
+                            valueType="calendar">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                typeHint="Date"/>
+                        </_x0031_563999264181>
+                        <_x0031_563999290171
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                            emptyOption="{Boolean}true"
+                            fieldLabel="Event Type"
+                            listOrder="6"
+                            metaType="enumeration"
+                            name="eventType"
+                            options="Art,Music,Performance,Photography"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <datasource
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/admin/components/datasources/optionrenderer"
+                                variant="default"/>
+                        </_x0031_563999290171>
+                        <_x0031_563999319310
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                            fieldLabel="Ticket Price"
+                            listOrder="3"
+                            metaType="number"
+                            name="eventPrice"
+                            renderReadOnly="false"
+                            required="on"
+                            showEmptyInReadOnly="true"
+                            step="1"
+                            typeHint="long"
+                            valueType="long"/>
+                        <_x0031_563999374617
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="Event Image"
+                            filter="hierarchy"
+                            listOrder="8"
+                            metaType="reference"
+                            name="eventImage"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            required="on"
+                            rootPath="/content/dam/wknd-mobile/images"
+                            showEmptyInReadOnly="true"
+                            valueType="string"/>
+                        <_x0031_563999437957
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Venue Name"
+                            listOrder="1"
+                            maxlength="100"
+                            metaType="text-single"
+                            name="venueName"
+                            renderReadOnly="false"
+                            required="on"
+                            showEmptyInReadOnly="true"
+                            valueType="string"/>
+                        <_x0031_563999456977
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                            emptyOption="{Boolean}true"
+                            fieldLabel="Venue City"
+                            listOrder="6"
+                            metaType="enumeration"
+                            name="venueCity"
+                            options="Basel, London, Los Angeles, Paris, New York, Tokyo"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <datasource
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/admin/components/datasources/optionrenderer"
+                                variant="default"/>
+                        </_x0031_563999456977>
+                    </items>
+                </content>
+            </cq:dialog>
+        </model>
+    </jcr:content>
+</jcr:root>

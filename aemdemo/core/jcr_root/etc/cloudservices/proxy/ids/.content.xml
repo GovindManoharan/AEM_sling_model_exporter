@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-11-10T12:14:25.365+08:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/dam/templates/proxy"
+        jcr:lastModified="{Date}2011-11-10T12:14:25.361+08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Default IDS Pool"
+        sling:resourceType="dam/components/proxy/ids"
+        pool="http://localhost:8080"/>
+</jcr:root>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="755a5f70-ea11-3d1e-a963-ec0fa3d041c2"
+    rep:authorizableId="taskmanagement-service"
+    rep:principalName="taskmanagement-service"/>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="6f1fe9f4-0d0e-35ff-a8ca-fe5028e1717f"
+    rep:authorizableId="fontconfig-service"
+    rep:principalName="fontconfig-service"/>

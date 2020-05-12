@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-10-05T18:26:42.526+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="Coordinate Creation of Conversational Marketing Campaigns"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Adobe Campaign"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        category="marketingcloud"
+        componentReference="mcm/campaign/components/campaign"
+        description="Adobe Campaign lets you coordinate the creation of conversional marketing campaigns."
+        descriptionExtended="It allows for Profile Management, data segmentation and marketing capabilities, campaign creation, execution and management. personalization and publishing message using all communication channels, via a collaboration and approval process."
+        inclusionRank="{Long}100"
+        ranking="60"
+        serviceUrl="https://www.adobe.com/go/campaign"
+        showOnDashboard="{Boolean}true"
+        thumbnailPath="/libs/mcm/campaign/templates/configpage/thumbnail.png"/>
+    <rep:policy/>
+</jcr:root>

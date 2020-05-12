@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="a648ff85-3de0-367c-8c8b-b3d2d5f495d7"
+    rep:authorizableId="launch-event-service"
+    rep:principalName="launch-event-service"/>

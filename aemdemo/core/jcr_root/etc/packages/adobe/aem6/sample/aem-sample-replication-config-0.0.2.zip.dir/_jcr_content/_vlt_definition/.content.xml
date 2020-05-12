@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0"
+    jcr:created="{Date}2017-08-28T14:54:39.270+03:00"
+    jcr:createdBy="bailescu"
+    jcr:description="Sample configuration for AEM Replication"
+    jcr:primaryType="vlt:PackageDefinition"
+    acHandling="merge_preserve"
+    dependencies="[day/cq60/product:cq-content:6.3.0]"
+    group="adobe/aem6/sample"
+    lastUnpacked="{Date}2020-04-12T17:34:28.887-04:00"
+    lastUnpackedBy="admin"
+    lastUnwrapped="{Date}2020-04-12T17:33:49.866-04:00"
+    name="aem-sample-replication-config"
+    requiresRestart="{Boolean}false"
+    requiresRoot="{Boolean}false"
+    version="0.0.2">
+    <thumbnail.png/>
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.author/flush"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.author/publish"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.author/publish_reverse"
+            rules="[]"/>
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.author/static"
+            rules="[]"/>
+        <f4
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.author/test_and_target"
+            rules="[]"/>
+        <f5
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.publish/flush"
+            rules="[]"/>
+        <f6
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.publish/outbox"
+            rules="[]"/>
+    </filter>
+</jcr:root>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-10-14T17:04:18.695+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="Optimize Site Search and Drive Relevant Matches"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Adobe Search&amp;Promote (Deprecated)"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        category="marketingcloud"
+        connectedWhen="memberid"
+        description="Adobe® Search&amp;Promote enables marketers to optimize how visitors browse, find, compare, and select relevant products and content on web and mobile sites."
+        descriptionExtended="Businesses can easily promote priority items based on business objectives and visitor intent, as well as automate merchandising and promotions activity via KPI-based triggers or metrics. Adobe Search&amp;Promote is part of the Adobe Marketing Cloud of applications for online business optimization."
+        ranking="90"
+        serviceAdminUrl="https://my.omniture.com"
+        serviceUrl="http://www.omniture.com/offer/987"
+        solution="target"
+        summaryPanelPath="/libs/cq/searchpromote/components/searchpromotepage/panel"
+        thumbnailPath="/libs/cq/searchpromote/templates/searchpromote/thumbnail.png"/>
+    <rep:policy/>
+</jcr:root>

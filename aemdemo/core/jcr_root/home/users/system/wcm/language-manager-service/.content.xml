@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="91b8b431-af8e-32f8-a8f4-d320d2f2dce0"
+    rep:authorizableId="language-manager-service"
+    rep:principalName="language-manager-service"/>

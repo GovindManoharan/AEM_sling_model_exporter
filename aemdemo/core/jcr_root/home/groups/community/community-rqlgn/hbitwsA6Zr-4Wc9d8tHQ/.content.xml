@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="ed0f0094-0d44-37ba-9140-dec426b0ce19"
+    rep:authorizableId="community-community-rqlgn-communitymanagers"
+    rep:members="{WeakReference}[79eb763f-4a7f-3772-ab8b-77278e3ae9f3]"
+    rep:principalName="community-community-rqlgn-communitymanagers"
+    path="/content/we-retail/us/en/community">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        aboutMe="communitymanagers for site /content/we-retail/us/en/community"
+        givenName="Community Community Communitymanagers"/>
+</jcr:root>

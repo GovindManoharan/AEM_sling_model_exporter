@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="7d3f7a3f-9392-3963-9fc9-406821f74c32"
+    rep:authorizableId="forms-submission-reviewers"
+    rep:principalName="forms-submission-reviewers"/>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="4e82abff-5786-3f64-9983-c59a8872c428"
+    rep:authorizableId="audit-service"
+    rep:principalName="audit-service"/>

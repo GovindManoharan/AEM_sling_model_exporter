@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="28814005-fcca-3284-a295-0a3431755677"
+    rep:authorizableId="foundation-forms-service"
+    rep:principalName="foundation-forms-service"/>

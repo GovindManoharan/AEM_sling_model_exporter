@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="3755c07c-dd3f-3e03-afc5-29c5fb04ad5c"
+    rep:authorizableId="webservice-support-servicelibfinder"
+    rep:principalName="webservice-support-servicelibfinder"/>

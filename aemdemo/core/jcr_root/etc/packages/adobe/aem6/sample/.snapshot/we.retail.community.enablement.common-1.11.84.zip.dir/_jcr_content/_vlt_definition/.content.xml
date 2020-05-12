@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0"
+    jcr:created="{Date}2020-04-12T17:37:14.546-04:00"
+    jcr:createdBy="admin"
+    jcr:description="Snapshot of package adobe/aem6/sample:we.retail.community.enablement.common:1.11.84"
+    jcr:lastModified="{Date}2020-04-12T17:37:14.546-04:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    acHandling="MERGE_PRESERVE"
+    buildCount="1"
+    group="adobe/aem6/sample/.snapshot"
+    lastUnwrapped="{Date}2020-04-12T17:37:14.546-04:00"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2020-04-12T17:37:14.546-04:00"
+    lastWrappedBy="admin"
+    name="we.retail.community.enablement.common"
+    version="1.11.84">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/we-retail/us/en/community/resources/en"
+            rules="[exclude:/content/we-retail/us/en/community/resources/en/.*/se_enablement,exclude:/content/we-retail/us/en/community/resources/en/*policy*,exclude:/content/we-retail/us/en/community/resources/en/.*/*policy*]"/>
+    </filter>
+</jcr:root>

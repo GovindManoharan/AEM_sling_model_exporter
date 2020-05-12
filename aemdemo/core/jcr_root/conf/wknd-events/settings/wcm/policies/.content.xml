@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <wcm
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="nt:unstructured">
+        <foundation
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="nt:unstructured">
+            <components
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="nt:unstructured">
+                <page
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="nt:unstructured">
+                    <policy
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Teaser Page Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="wknd-events.teaser">
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </policy>
+                    <jcr:content
+                        jcr:primaryType="nt:unstructured"
+                        mergeList="{Boolean}true"/>
+                </page>
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <locked
+                        jcr:description="Policy of the locked parsys"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Locked Parsys Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="group:General">
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </locked>
+                    <jcr:content
+                        jcr:primaryType="nt:unstructured"
+                        mergeList="{Boolean}true"/>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+    <rep:policy/>
+</jcr:root>

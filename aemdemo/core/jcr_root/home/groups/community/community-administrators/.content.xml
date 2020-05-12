@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    cq:lastModified="{Date}2015-09-14T14:21:45.552-07:00"
+    cq:lastModifiedBy="admin"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="79eb763f-4a7f-3772-ab8b-77278e3ae9f3"
+    rep:authorizableId="community-administrators"
+    rep:members="{WeakReference}[6351fadd-c9a3-3e6d-ad53-ed1f28b552b0]"
+    rep:principalName="community-administrators">
+    <preferences
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq:Preferences"/>
+    <profile
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        givenName="Communities Administrators"/>
+</jcr:root>

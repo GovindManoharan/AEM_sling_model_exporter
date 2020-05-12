@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2020-04-12T17:49:19.342-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/MyTemplates/settings/wcm/templates/myfirsttemplate"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <image
+                jcr:created="{Date}2020-04-12T17:44:31.905-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-04-12T17:47:27.785-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/image"
+                fileReference="/content/dam/core-components-examples/library/sample-assets/snowy-mountain-glacier.jpg"
+                height="0"
+                width="0">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="5"/>
+                </cq:responsive>
+            </image>
+            <table
+                jcr:created="{Date}2020-04-12T17:48:08.315-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-04-12T17:48:57.928-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/table"
+                tableData="&lt;table width=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;1&quot; border=&quot;1&quot;>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>1&lt;/td>&#xd;&#xa;&lt;td>2&lt;/td>&#xd;&#xa;&lt;td>3&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>a&lt;/td>&#xd;&#xa;&lt;td>b&lt;/td>&#xd;&#xa;&lt;td>c&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        behavior="none"
+                        offset="0"
+                        width="6"/>
+                </cq:responsive>
+            </table>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

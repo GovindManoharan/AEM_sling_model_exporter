@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="5e098491-a790-3215-9b7f-7eaac31c4083"
+    rep:authorizableId="dam-teammgr-service"
+    rep:principalName="dam-teammgr-service"/>

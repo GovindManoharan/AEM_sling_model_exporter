@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="5f3a8c2d-d2cd-3c69-b85c-e991a4b2fcc2"
+    rep:authorizableId="projects-wetranslate_project-translationproducer"
+    rep:principalName="projects-wetranslate_project-translationproducer">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        alternateTitle="International Producers"
+        givenName="WETranslate project International Producers"/>
+</jcr:root>

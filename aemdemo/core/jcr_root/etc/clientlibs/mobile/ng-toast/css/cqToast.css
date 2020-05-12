@@ -1,0 +1,54 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2014 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+.cq-toast {
+    pointer-events: none;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: 60%;
+    height: 1.875rem;
+    margin-left: -30%;
+    border: 1px solid #666;
+    background-color:rgba(0,0,0,0.55);
+    color: #fff;
+    text-shadow: none;
+    padding: 0.285rem 0 ;
+    text-align:center;
+    opacity: 0;
+    z-index: 1000;
+}
+
+.cq-toast,
+.cq-toast > p {
+    -webkit-transition: opacity 0.5s ease-out;  /* Saf3.2+, Chrome */
+    -moz-transition: opacity 0.5s ease-out;  /* FF4+ */
+    -ms-transition: opacity 0.5s ease-out;  /* IE10? */
+    -o-transition: opacity 0.5s ease-out;  /* Opera 10.5+ */
+    transition: opacity 0.5s ease-out;
+}
+
+.cq-toast > p {
+    padding: 0;
+    width: 100%;
+    padding: 0 0.285rem;
+    font-weight: 200;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

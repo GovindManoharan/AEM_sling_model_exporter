@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:rep="internal" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="11e18cf3-b1f4-39de-9122-964b9dbdd00c"
+    rep:authorizableId="willie.melton@dodgit.com"
+    rep:password="\{SHA-256}165dd4b83880f685-1000-6c2fe52afa7b2123a54cd7faed366eaae965b9a291403f1c5683c7b9758e519a"
+    rep:principalName="willie.melton@dodgit.com">
+    <profile
+        jcr:mixinTypes="[granite:Ranking,mix:title]"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        aboutMe="Willie is an avid bike courier. He has not shopped at We.Retail."
+        birthday="{Date}1983-11-03T00:00:00.000+01:00"
+        email="willie.melton@dodgit.com"
+        familyName="Melton"
+        gender="male"
+        givenName="Willie">
+        <photos/>
+    </profile>
+</jcr:root>

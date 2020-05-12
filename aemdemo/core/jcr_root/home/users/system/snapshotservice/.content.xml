@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="6d25f089-a181-3dd7-bdf1-6149eb600c55"
+    rep:authorizableId="snapshotservice"
+    rep:principalName="snapshotservice"/>

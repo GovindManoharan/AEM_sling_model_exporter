@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="0b8716eb-63b6-3105-84af-3fa75c1c3f69"
+    rep:authorizableId="cloudconfig-scripttags"
+    rep:principalName="cloudconfig-scripttags"/>

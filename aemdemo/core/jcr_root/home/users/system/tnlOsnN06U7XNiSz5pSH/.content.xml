@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="db509f54-aad7-3cbc-898c-592e0e6b7f7b"
+    rep:authorizableId="dam-metadata-export-service"
+    rep:principalName="dam-metadata-export-service"/>

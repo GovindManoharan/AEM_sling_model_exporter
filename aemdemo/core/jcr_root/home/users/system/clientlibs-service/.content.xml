@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="e91d28d8-caad-36cf-9435-b38fb4fd5ea1"
+    rep:authorizableId="clientlibs-service"
+    rep:principalName="clientlibs-service"/>

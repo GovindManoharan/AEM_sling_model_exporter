@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="391d2edd-105e-385d-9a9b-9317acb7a405"
+    rep:authorizableId="dam-update-service"
+    rep:principalName="dam-update-service"/>

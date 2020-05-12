@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="f2e23fe2-6c3b-31b5-a506-a12e03d13ec6"
+    rep:authorizableId="assetdownloadservice"
+    rep:principalName="assetdownloadservice"/>

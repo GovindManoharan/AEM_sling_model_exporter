@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="a7e90d53-4158-3de8-9223-e6028e8513f4"
+    rep:authorizableId="sling-installer-service"
+    rep:principalName="sling-installer-service"/>

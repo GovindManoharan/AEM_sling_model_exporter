@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="3ed523ad-6a40-315a-9145-cc3f6647e0a2"
+    rep:authorizableId="design-cache-service"
+    rep:principalName="design-cache-service"/>

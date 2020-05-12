@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-08-20T16:20:56.906-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="Pushwoosh Connection Configuration"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Pushwoosh Connection"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        connectedWhen="appID"
+        description="Pushwoosh Connection"
+        descriptionExtended="Pushwoosh Connection"
+        pushServiceId="pushwoosh"
+        ranking="50"
+        serviceAdminUrl="https://www.pushwoosh.com"
+        serviceUrl="https://www.pushwoosh.com"
+        showOnDashboard="{Boolean}true"
+        thumbnailPath="/libs/mobileapps/templates/rps-pushwoosh/thumbnail.png"/>
+    <plugin
+        jcr:primaryType="nt:unstructured"
+        name="pushwoosh-cordova-plugin"
+        spec="3.6.15"/>
+</jcr:root>

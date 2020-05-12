@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="ab424ba2-c513-3338-abfd-74ce48879f73"
+    rep:authorizableId="s7dam-config-service"
+    rep:principalName="s7dam-config-service"/>

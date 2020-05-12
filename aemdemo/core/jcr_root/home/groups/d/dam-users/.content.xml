@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    cq:lastModified="{Date}2013-01-24T05:10:29.987Z"
+    cq:lastModifiedBy="admin"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="f5777a0b-a933-3b4d-9405-613d8bc39cc7"
+    rep:authorizableId="dam-users"
+    rep:members="{WeakReference}[6c618b3b-8147-3a1b-90c9-9f836678dfca,94bf4658-721f-30ee-94b9-fd1931312de4,0c44d27b-ea6d-397a-873b-8d297617ba6d,21c2b180-a554-35ae-a7d5-efd39bb7920f]"
+    rep:principalName="dam-users">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        aboutMe="Users of the DAM system"
+        givenName="DAM Users"/>
+</jcr:root>

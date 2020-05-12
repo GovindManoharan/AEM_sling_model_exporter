@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:crx="http://www.day.com/crx/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:ACL">
+    <allow
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="fd-service"
+        rep:privileges="{Name}[crx:replicate]"/>
+    <allow1
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="forms-users"
+        rep:privileges="{Name}[crx:replicate,rep:write]"/>
+    <deny2
+        jcr:primaryType="rep:DenyACE"
+        rep:principalName="forms-users"
+        rep:privileges="{Name}[jcr:addChildNodes]">
+        <rep:restrictions
+            jcr:primaryType="rep:Restrictions"
+            rep:glob="*"
+            rep:itemNames="{Name}[js.txt]"/>
+    </deny2>
+</jcr:root>

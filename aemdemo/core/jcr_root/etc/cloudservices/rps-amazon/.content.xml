@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-08-20T16:20:56.906-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="Amazon SNS Connection Configuration"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Amazon SNS Connection"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        connectedWhen="accountId"
+        description="Amazon SNS Connection"
+        descriptionExtended="Amazon SNS Connection"
+        pushServiceId="amazonws"
+        ranking="50"
+        serviceAdminUrl="https://console.aws.amazon.com/sns/"
+        serviceUrl="https://console.aws.amazon.com/sns/"
+        showOnDashboard="{Boolean}true"
+        thumbnailPath="/libs/mobileapps/templates/rps-amazon/thumbnail.png"/>
+    <plugin
+        jcr:primaryType="nt:unstructured"
+        name="phonegap-plugin-push"
+        spec="1.8.4"/>
+</jcr:root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0"
+    jcr:created="{Date}2020-04-12T17:37:15.600-04:00"
+    jcr:createdBy="admin"
+    jcr:description="Snapshot of package adobe/aem6/sample:we.retail.community.apps:1.11.84"
+    jcr:lastModified="{Date}2020-04-12T17:37:15.600-04:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    acHandling="MERGE_PRESERVE"
+    buildCount="1"
+    group="adobe/aem6/sample/.snapshot"
+    lastUnwrapped="{Date}2020-04-12T17:37:15.600-04:00"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2020-04-12T17:37:15.600-04:00"
+    lastWrappedBy="admin"
+    name="we.retail.community.apps"
+    version="1.11.84">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/social/console/components/basepage"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/social/console/components/hbs/sitepage/weretail.hbs"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            root="/apps/system/config"
+            rules="[include:/apps/system/config/com.adobe.granite.auth.oauth.provider(.*)?]"/>
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            root="/apps/we-retail-communities/config"
+            rules="[include:/apps/we-retail-communities/config/com.adobe.granite.auth.oauth.provider(.*)?]"/>
+    </filter>
+</jcr:root>

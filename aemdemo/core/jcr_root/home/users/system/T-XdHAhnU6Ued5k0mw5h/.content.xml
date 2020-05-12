@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="1ae9e401-5001-38f0-b84f-a0f73bcdf86b"
+    rep:authorizableId="analytics-content-updater-service"
+    rep:principalName="analytics-content-updater-service"/>

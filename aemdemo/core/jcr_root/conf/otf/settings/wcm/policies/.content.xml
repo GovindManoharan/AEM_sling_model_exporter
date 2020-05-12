@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <rep:policy/>
+    <otf jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <structure jcr:primaryType="nt:unstructured">
+                <page jcr:primaryType="nt:unstructured">
+                    <policy_1569408508671
+                        jcr:lastModified="{Date}2019-10-09T16:39:51.142+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Client library"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="otf.resources"
+                        clientlibs="[otf.vanilla,otf.apps.common]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1569408508671>
+                    <policy_523703813234999
+                        jcr:lastModified="{Date}2019-12-10T13:42:42.624+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF FAQ Template Client Library"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="otf.resources"
+                        clientlibs="[otf.vanilla,otf.apps.common]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_523703813234999>
+                    <policy_1579673915655
+                        jcr:lastModified="{Date}2020-01-22T11:51:56.876+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Generic Template Clientlib Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="otf.resources"
+                        clientlibs="[otf.vanilla,otf.apps.common]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1579673915655>
+                </page>
+                <bookingpage jcr:primaryType="nt:unstructured">
+                    <policy_2411366902260824
+                        jcr:lastModified="{Date}2020-04-01T12:28:31.753+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Booking Page Template Clientlib Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="otf.resources"
+                        clientlibs="[otf.vanilla,otf.apps.bookingpage,otf.apps.common]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_2411366902260824>
+                </bookingpage>
+                <campaignpage jcr:primaryType="nt:unstructured">
+                    <policy_2410126208017542
+                        jcr:lastModified="{Date}2020-03-04T12:04:09.784+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Campaign Template Clientlib Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="otf.resources"
+                        clientlibs="[otf.vanilla,otf.apps.homepage,otf.apps.common]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2020-03-04T12:07:00.795+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_2410126208017542>
+                </campaignpage>
+                <homepage jcr:primaryType="nt:unstructured">
+                    <policy_1569412001004
+                        jcr:lastModified="{Date}2019-10-09T16:27:33.926+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Client Library"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="otf.resources"
+                        clientlibs="[otf.vanilla,otf.apps.homepage,otf.apps.common]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-11-25T11:53:02.660+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_1569412001004>
+                </homepage>
+                <xfpage jcr:primaryType="nt:unstructured">
+                    <policy_1574751856011
+                        jcr:lastModified="{Date}2019-11-26T13:49:00.113+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Client library"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="[otf.vanilla,otf.apps.homepage,otf.apps.common]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1574751856011>
+                </xfpage>
+                <studiopage jcr:primaryType="nt:unstructured">
+                    <policy_1575637310063
+                        jcr:lastModified="{Date}2019-12-10T12:25:03.243+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Studio Page Client library"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="otf.resources"
+                        clientlibs="[otf.vanilla,otf.apps.studiopage,otf.apps.common]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-12-10T11:02:54.491+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_1575637310063>
+                </studiopage>
+                <locationfinderpage jcr:primaryType="nt:unstructured">
+                    <policy_1575637208275
+                        jcr:lastModified="{Date}2019-12-06T18:31:32.704+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Location Finder Page Client library"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="otf.resources"
+                        clientlibs="[otf.vanilla,otf.apps.locationfinderpage,otf.apps.common]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1575637208275>
+                </locationfinderpage>
+                <membershippage jcr:primaryType="nt:unstructured">
+                    <policy_356627822260901
+                        jcr:lastModified="{Date}2019-12-10T18:28:50.641+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Membership Page Client library"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="otf.resources"
+                        clientlibs="[otf.vanilla,otf.apps.membershippage,otf.apps.common]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-12-10T18:30:18.519+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_356627822260901>
+                </membershippage>
+                <promotionpage jcr:primaryType="nt:unstructured">
+                    <policy_1581930905940
+                        jcr:lastModified="{Date}2020-01-22T11:51:56.876+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Promotional Template Clientlib Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="otf.resources"
+                        clientlibs="[otf.vanilla,otf.apps.common,otf.apps.studiopage]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1581930905940>
+                </promotionpage>
+                <jobpage jcr:primaryType="nt:unstructured">
+                    <policy_1577777918380
+                        jcr:lastModified="{Date}2019-12-31T13:09:53.726+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Jobs/Career Page Client library"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="otf.resources"
+                        clientlibs="[otf.vanilla,otf.apps.common]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1577777918380>
+                </jobpage>
+                <articlelandingpage jcr:primaryType="nt:unstructured">
+                    <policy_1582786590999
+                        jcr:lastModified="{Date}2020-02-27T12:38:12.734+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Article Landing Page ClientLib Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="otf.resources"
+                        clientlibs="[otf.vanilla,otf.apps.articlelistpage,otf.apps.common]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1582786590999>
+                </articlelandingpage>
+            </structure>
+        </components>
+    </otf>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_2354158494201306
+                        jcr:description="Orange Theory Fitness"
+                        jcr:lastModified="{Date}2019-10-21T13:16:09.231+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Orange Theory Fitness"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:OTF]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-11-25T11:53:02.660+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_2354158494201306>
+                    <policy_742175289880067
+                        jcr:description="OTF HomePage Template Optional Policy"
+                        jcr:lastModified="{Date}2019-11-14T11:52:21.089+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF HomePage Template Optional Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/content-membershipInfo/v1/content-membershipInfo,/apps/otf/components/content/organism/featuredArticles/v1/featuredArticles,/apps/otf/components/content/organism/editorialHyperscroller/v1/editorialHyperscroller,/apps/otf/components/content/organism/articleGrid/v1/articleGrid,/apps/otf/components/content/organism/leadGenForm/v1/leadGenForm,/apps/otf/components/content/organism/promoLeadGenForm/v1/promoLeadGenForm,/apps/otf/components/content/organism/testimonials/v1/testimonials,/apps/otf/components/content/organism/embed/v2/socialFeed]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-11-25T11:53:02.660+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_742175289880067>
+                    <policy_23723088456684
+                        jcr:description="OTF Location Finder Template Fixed  Policy"
+                        jcr:lastModified="{Date}2019-12-04T20:41:22.986+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Location Finder Template Fixed  Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/otf/components/content/organism/locationFinder/v1/locationFinder]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-12-04T20:41:53.412+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_23723088456684>
+                    <policy_24032975419648
+                        jcr:description="OTF Location Finder Template Optional Policy"
+                        jcr:lastModified="{Date}2019-12-04T20:41:46.312+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Location Finder Template Optional Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/content-membershipInfo/v1/content-membershipInfo,/apps/otf/components/content/organism/editorialHyperscroller/v1/editorialHyperscroller,/apps/otf/components/content/organism/featuredArticles/v1/featuredArticles,/apps/otf/components/content/organism/articleGrid/v1/articleGrid,/apps/otf/components/content/organism/leadGenForm/v1/leadGenForm,/apps/otf/components/content/organism/promoLeadGenForm/v1/promoLeadGenForm,/apps/otf/components/content/organism/promoBanner/v1/promoBanner]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-12-04T20:41:53.412+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_24032975419648>
+                    <policy_116378438869120
+                        jcr:description="Studio Page Template Fixed Policy"
+                        jcr:lastModified="{Date}2019-12-05T20:36:34.178+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Studio Page Template Fixed Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/otf/components/content/organism/hero/v1/hero,/apps/otf/components/content/organism/studioInfo/v1/studioInfo]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-12-05T20:51:28.909+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_116378438869120>
+                    <policy_116480490317822
+                        jcr:description="Studio Page Template Optional Policy"
+                        jcr:lastModified="{Date}2019-12-20T14:58:20.792+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Studio Page Template Optional Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/editorialCarousel/v1/editorialCarousel,/apps/otf/components/content/organism/editorialHyperscroller/v1/editorialHyperscroller,/apps/otf/components/content/organism/featuredArticles/v1/featuredArticles,/apps/otf/components/content/organism/flexibleContent/v1/flexibleContent,/apps/otf/components/content/organism/membershipTile/v1/membershipTile,/apps/otf/components/content/organism/leadGenForm/v1/leadGenForm,/apps/otf/components/content/organism/promoLeadGenForm/v1/promoLeadGenForm,/apps/otf/components/content/organism/downloadApp/v1/downloadApp,/apps/otf/components/content/organism/content-membershipInfo/v1/content-membershipInfo,/apps/otf/components/content/organism/copyBlock/v1/copyBlock,/apps/otf/components/content/organism/featuredArticles/v1/featuredArticles,/apps/otf/components/content/organism/articleGrid/v1/articleGrid,/apps/otf/components/content/organism/promoBanner/v1/promoBanner,/apps/otf/components/content/organism/embed/v2/socialFeed,/libs/cq/experience-fragments/editor/components/experiencefragment]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-12-05T20:51:28.909+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_116480490317822>
+                    <policy_116558793633554
+                        jcr:description="Studio Page Template Optional Components Policy"
+                        jcr:lastModified="{Date}2019-12-05T20:39:26.112+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Studio Page Template Optional Components Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/editorialCarousel/v1/editorialCarousel,/apps/otf/components/content/organism/editorialHyperscroller/v1/editorialHyperscroller,/apps/otf/components/content/organism/featuredArticles/v1/featuredArticles,/apps/otf/components/content/organism/flexibleContent/v1/flexibleContent,/apps/otf/components/content/organism/membershipTile/v1/membershipTile,/apps/otf/components/content/organism/leadGenForm/v1/leadGenForm,/apps/otf/components/content/organism/promoLeadGenForm/v1/promoLeadGenForm,/apps/otf/components/content/organism/downloadApp/v1/downloadApp,/apps/otf/components/content/organism/content-membershipInfo/v1/content-membershipInfo,/apps/otf/components/content/organism/copyBlock/v1/copyBlock,/apps/otf/components/content/organism/featuredArticles/v1/featuredArticles,/apps/otf/components/content/organism/articleGrid/v1/articleGrid,/apps/otf/components/content/organism/promoBanner/v1/promoBanner,/apps/otf/components/content/organism/embed/v2/socialFeed,/libs/cq/experience-fragments/editor/components/experiencefragment]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-12-05T20:51:28.909+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_116558793633554>
+                    <policy_521735063336211
+                        jcr:lastModified="{Date}2019-12-10T13:09:50.487+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF FAQ Page Optional Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/faq/v1/faq,/apps/otf/components/content/organism/hero/v1/hero,/apps/otf/components/content/organism/contactUsForm/v1/contactUsForm,/apps/otf/components/content/organism/copyBlock/v1/copyBlock,/apps/otf/components/content/organism/embed/v2/socialFeed]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_521735063336211>
+                    <policy_1575981766076
+                        jcr:lastModified="{Date}2019-12-10T18:13:33.799+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Membership Page Template Fixed Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/otf/components/content/organism/hero/v1/hero,/apps/otf/components/content/organism/membershipTile/v1/membershipTile]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-12-10T18:30:18.519+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_1575981766076>
+                    <policy_355907546912211
+                        jcr:lastModified="{Date}2019-12-20T14:57:49.339+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Membership Page Template Optional Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/content-membershipInfo/v1/content-membershipInfo,/apps/otf/components/content/organism/copyBlock/v1/copyBlock,/apps/otf/components/content/organism/flexibleContent/v1/flexibleContent,/apps/otf/components/content/organism/editorialCarousel/v1/editorialCarousel,/apps/otf/components/content/organism/editorialList/v1/editorialList,/apps/otf/components/content/organism/mediaGallery/v1/mediaGallery,/apps/otf/components/content/organism/promoBanner/v1/promoBanner,/apps/otf/components/content/organism/featuredArticles/v1/featuredArticles,/apps/otf/components/content/organism/articleGrid/v1/articleGrid,/apps/otf/components/content/organism/leadGenForm/v1/leadGenForm,/apps/otf/components/content/organism/promoLeadGenForm/v1/promoLeadGenForm,/apps/otf/components/content/organism/locationFinder/v1/locationFinder,/apps/otf/components/content/organism/corporateMembershipForm/v1/corporateMembershipForm,/apps/otf/components/content/organism/faq/v1/faq,/apps/otf/components/content/organism/mediaTile/v1/mediaTile]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-12-10T18:30:18.519+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_355907546912211>
+                    <policy_823956586039556
+                        jcr:lastModified="{Date}2019-12-28T00:18:15.061+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Workout Page Template Fixed Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/otf/components/content/organism/hero/v1/hero]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_823956586039556>
+                    <policy_1577350061293
+                        jcr:lastModified="{Date}2019-12-28T00:19:12.036+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Workout Page Template Optional Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/content-membershipInfo/v1/content-membershipInfo,/apps/otf/components/content/organism/copyBlock/v1/copyBlock,/apps/otf/components/content/organism/editorialCarousel/v1/editorialCarousel,/apps/otf/components/content/organism/editorialList/v1/editorialList,/apps/otf/components/content/organism/editorialHyperscroller/v1/editorialHyperscroller,/apps/otf/components/content/organism/downloadApp/v1/downloadApp,/apps/otf/components/content/organism/featuredArticles/v1/featuredArticles,/apps/otf/components/content/organism/leadGenForm/v1/leadGenForm,/apps/otf/components/content/organism/promoLeadGenForm/v1/promoLeadGenForm,/apps/otf/components/content/organism/mediaGallery/v1/mediaGallery,/apps/otf/components/content/organism/membershipTile/v1/membershipTile,/apps/otf/components/content/organism/promoBanner/v1/promoBanner,/apps/otf/components/content/organism/testimonials/v1/testimonials,/apps/otf/components/content/organism/articleGrid/v1/articleGrid,/apps/otf/components/content/organism/flexibleContent/v1/flexibleContent,/apps/otf/components/content/organism/mediaTile/v1/mediaTile,/apps/otf/components/content/organism/embed/v2/socialFeed]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1577350061293>
+                    <policy_1094136361918236
+                        jcr:description="OTF Jobs/Career Page Fixed Policy"
+                        jcr:lastModified="{Date}2019-12-29T17:13:09.022+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Jobs/Career Page Fixed Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/otf/components/content/organism/hero/v1/hero]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1094136361918236>
+                    <policy_1094346491613329
+                        jcr:description="OTF Jobs/Career Page Optional Policy"
+                        jcr:lastModified="{Date}2019-12-29T17:15:43.485+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Jobs/Career Page Optional Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/careersForm/v1/careersForm,/apps/otf/components/content/organism/content-membershipInfo/v1/content-membershipInfo,/apps/otf/components/content/organism/copyBlock/v1/copyBlock,/apps/otf/components/content/organism/faq/v1/faq,/apps/otf/components/content/organism/leadGenForm/v1/leadGenForm,/apps/otf/components/content/organism/promoLeadGenForm/v1/promoLeadGenForm]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1094346491613329>
+                    <policy_1577620071032
+                        jcr:description="OTF Article Page Template Fixed Policy"
+                        jcr:lastModified="{Date}2019-12-29T17:18:17.039+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Article Page Template Fixed Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/libs/wcm/foundation/components/responsivegrid">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1577620071032>
+                    <policy_1094591567545487
+                        jcr:description="OTF Article Page Template Optional Policy"
+                        jcr:lastModified="{Date}2019-12-29T17:20:18.877+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Article Page Template Optional Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/content-membershipInfo/v1/content-membershipInfo,/apps/otf/components/content/organism/copyBlock/v1/copyBlock,/apps/otf/components/content/organism/editorialCarousel/v1/editorialCarousel,/apps/otf/components/content/organism/faq/v1/faq,/apps/otf/components/content/organism/featuredArticles/v1/featuredArticles,/apps/otf/components/content/organism/hero/v1/hero,/apps/otf/components/content/organism/mediaGallery/v1/mediaGallery,/apps/otf/components/content/organism/articleGrid/v1/articleGrid,/apps/otf/components/content/organism/leadGenForm/v1/leadGenForm,/apps/otf/components/content/organism/promoLeadGenForm/v1/promoLeadGenForm,/apps/otf/components/content/organism/mediaTile/v1/mediaTile,/apps/otf/components/content/organism/embed/v2/socialFeed]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1094591567545487>
+                    <policy_1577620483789
+                        jcr:description="OTF Generic Page Template Fixed Policy"
+                        jcr:lastModified="{Date}2019-12-29T17:25:12.865+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Generic Page Template Fixed Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/libs/wcm/foundation/components/responsivegrid">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1577620483789>
+                    <policy_1581927882059
+                        jcr:description="OTF Promotional Page Template Fixed Policy"
+                        jcr:lastModified="{Date}2019-12-29T17:25:12.865+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Promotional Page Template Fixed Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/libs/wcm/foundation/components/responsivegrid">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1581927882059>
+                    <policy_1095005289156988
+                        jcr:description="OTF Generic Page Template Optional Policy"
+                        jcr:lastModified="{Date}2019-12-29T17:27:35.036+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Generic Page Template Optional Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/careersForm/v1/careersForm,/apps/otf/components/content/organism/content-membershipInfo/v1/content-membershipInfo,/apps/otf/components/content/organism/copyBlock/v1/copyBlock,/apps/otf/components/content/organism/corporateMembershipForm/v1/corporateMembershipForm,/apps/otf/components/content/organism/editorialCarousel/v1/editorialCarousel,/apps/otf/components/content/organism/editorialList/v1/editorialList,/apps/otf/components/content/organism/faq/v1/faq,/apps/otf/components/content/organism/featuredArticles/v1/featuredArticles,/apps/otf/components/content/organism/hero/v1/hero,/apps/otf/components/content/organism/leadGenForm/v1/leadGenForm,/apps/otf/components/content/organism/promoLeadGenForm/v1/promoLeadGenForm,/apps/otf/components/content/organism/mediaGallery/v1/mediaGallery,/apps/otf/components/content/organism/promoBanner/v1/promoBanner,/apps/otf/components/content/organism/articleGrid/v1/articleGrid,/apps/otf/components/content/organism/flexibleContent/v1/flexibleContent,/apps/otf/components/content/organism/downloadApp/v1/downloadApp,/apps/otf/components/content/organism/mediaTile/v1/mediaTile,/apps/otf/components/content/organism/embed/v2/socialFeed,/apps/otf/components/content/organism/jotForm/v1/jotForm]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1095005289156988>
+                    <policy_1581927741556
+                        jcr:description="OTF Promotional Page Template Optional Policy"
+                        jcr:lastModified="{Date}2019-12-29T17:27:35.036+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Promotional Page Template Optional Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/careersForm/v1/careersForm,/apps/otf/components/content/organism/content-membershipInfo/v1/content-membershipInfo,/apps/otf/components/content/organism/copyBlock/v1/copyBlock,/apps/otf/components/content/organism/corporateMembershipForm/v1/corporateMembershipForm,/apps/otf/components/content/organism/editorialCarousel/v1/editorialCarousel,/apps/otf/components/content/organism/editorialList/v1/editorialList,/apps/otf/components/content/organism/faq/v1/faq,/apps/otf/components/content/organism/featuredArticles/v1/featuredArticles,/apps/otf/components/content/organism/hero/v1/hero,/apps/otf/components/content/organism/leadGenForm/v1/leadGenForm,/apps/otf/components/content/organism/promoLeadGenForm/v1/promoLeadGenForm,/apps/otf/components/content/organism/mediaGallery/v1/mediaGallery,/apps/otf/components/content/organism/promoBanner/v1/promoBanner,/apps/otf/components/content/organism/articleGrid/v1/articleGrid,/apps/otf/components/content/organism/flexibleContent/v1/flexibleContent,/apps/otf/components/content/organism/downloadApp/v1/downloadApp,/apps/otf/components/content/organism/embed/v2/socialFeed,/apps/otf/components/content/organism/mediaTile/v1/mediaTile]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1581927741556>
+                    <policy_28329365481081
+                        jcr:lastModified="{Date}2020-01-02T15:32:10.083+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Article Page Template Grid Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/copyBlock/v1/copyBlock,/apps/otf/components/content/organism/embed/v1/embed,/apps/otf/components/content/organism/embed/v2/socialFeed,/apps/otf/components/content/organism/hero/v1/hero]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_28329365481081>
+                    <policy_2410076786849329
+                        jcr:lastModified="{Date}2020-03-04T12:03:46.559+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Campaign Template Optional Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/content-membershipInfo/v1/content-membershipInfo,/apps/otf/components/content/organism/copyBlock/v1/copyBlock,/apps/otf/components/content/organism/hero/v1/hero,/apps/otf/components/content/organism/promoBanner/v1/promoBanner,/apps/otf/components/content/organism/promoLeadGenForm/v1/promoLeadGenForm]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2020-03-04T12:07:00.795+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_2410076786849329>
+                    <policy_422803398679958
+                        jcr:lastModified="{Date}2020-02-10T12:11:22.350+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Membership Page Template First Optional Policy "
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/otf/components/content/organism/locationFinder/v1/locationFinder">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_422803398679958>
+                    <policy_1582786407589
+                        jcr:lastModified="{Date}2020-02-27T12:26:10.499+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="OTF Article Landing Page Template Optional Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/content-membershipInfo/v1/content-membershipInfo,/apps/otf/components/content/organism/hero/v1/hero,/apps/otf/components/content/organism/embed/v2/socialFeed]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1582786407589>
+                    <policy_2410722371006197
+                        jcr:lastModified="{Date}2020-04-01T12:17:29.063+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Booking Page Template Fixed Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/otf/components/content/organism/booking/v1/booking">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_2410722371006197>
+                    <policy_2411150065914566
+                        jcr:lastModified="{Date}2020-04-01T12:25:16.512+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Booking Page Template Optional Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/otf/components/content/organism/editorialList/v1/editorialList,/apps/otf/components/content/organism/downloadApp/v1/downloadApp,/apps/otf/components/content/organism/content-membershipInfo/v1/content-membershipInfo,/apps/otf/components/content/organism/copyBlock/v1/copyBlock,/apps/otf/components/content/organism/mediaGallery/v1/mediaGallery,/apps/otf/components/content/organism/mediaTile/v1/mediaTile,/apps/otf/components/content/organism/tileIconList/v1/tileIconList]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_2411150065914566>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+</jcr:root>

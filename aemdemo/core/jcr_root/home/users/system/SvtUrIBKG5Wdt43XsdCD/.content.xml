@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="804131bf-8452-39d4-9525-bd0b6043a685"
+    rep:authorizableId="compat-codeupgrade-service"
+    rep:principalName="compat-codeupgrade-service"/>

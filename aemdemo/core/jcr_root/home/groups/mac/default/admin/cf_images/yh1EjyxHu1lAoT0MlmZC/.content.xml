@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:title="cf_images"
+    jcr:uuid="1ea03b0e-80a4-3836-a948-93189c8b0ad9"
+    rep:authorizableId="mac-default-cf_images"
+    rep:members="{WeakReference}[21232f29-7a57-35a7-8389-4a0e4a801fc3]"
+    rep:principalName="mac-default-cf_images"/>

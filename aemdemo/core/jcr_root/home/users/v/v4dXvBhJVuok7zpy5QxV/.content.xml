@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="21232f29-7a57-35a7-8389-4a0e4a801fc3"
+    rep:authorizableId="admin"
+    rep:password="\{SHA-256}e04cd5240e76a733-1000-71b1c169e9879e7927151c39c5c360414ff4f41518b03b5908b124a557f5f76c"
+    rep:principalName="admin">
+    <_x002e_tokens jcr:primaryType="rep:Unstructured">
+        <_x0030_d20fadb-6e58-4082-8d4e-a295aae86b1b
+            jcr:primaryType="rep:Token"
+            jcr:uuid="0d20fadb-6e58-4082-8d4e-a295aae86b1b"
+            rep:token.exp="{Date}2020-04-17T07:33:05.939-04:00"
+            rep:token.key="\{SHA-256}a05d6e31399195d5-2f20c0aae77e471614d7b31371fd5287fc9d371c93866fd2709cd9be099a725a"
+            ip="0:0:0:0:0:0:0:1"
+            referer="http://localhost:4502/libs/granite/core/content/login.html?resource=%2F&amp;$$login$$=%24%24login%24%24&amp;j_reason=session_timed_out&amp;j_reason_code=invalid_login"
+            useragent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36"/>
+        <_x0039_2dae214-1d3d-48f3-ba5f-03a87251e4d7
+            jcr:primaryType="rep:Token"
+            jcr:uuid="92dae214-1d3d-48f3-ba5f-03a87251e4d7"
+            rep:token.exp="{Date}2020-05-12T21:20:37.660-04:00"
+            rep:token.key="\{SHA-256}e1403d480588e60b-5ba7ae40f7c0d776087ae5387541a5dfaaee3f0f3b22416da67b3207c80aa865"
+            ip="0:0:0:0:0:0:0:1"
+            referer="http://localhost:4502/libs/granite/core/content/login.html?resource=%2F&amp;$$login$$=%24%24login%24%24&amp;j_reason=unknown&amp;j_reason_code=unknown"
+            useragent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"/>
+    </_x002e_tokens>
+    <preferences
+        jcr:primaryType="nt:unstructured"
+        cq.authoring.editor.page.showOnboarding62="false"
+        granite.shell.showonboarding620="false"/>
+    <profile
+        jcr:mixinTypes="[rep:AccessControllable]"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        familyName="Administrator"/>
+</jcr:root>

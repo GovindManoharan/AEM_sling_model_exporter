@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="de696e96-1bed-3790-a9bf-d4372ac371ed"
+    rep:authorizableId="projects-wetranslate_project-editor"
+    rep:principalName="projects-wetranslate_project-editor">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        alternateTitle="Editors"
+        givenName="WETranslate project Editors"/>
+</jcr:root>

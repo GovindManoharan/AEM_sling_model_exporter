@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="d34e7551-b2d4-3700-bfce-8fd6c955e841"
+    rep:authorizableId="screens-we-retail-devices"
+    rep:principalName="screens-we-retail-devices">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        aboutMe="Group for Screens devices in We-Retail sample project"
+        givenName="Screens We-Retail Devices"/>
+</jcr:root>

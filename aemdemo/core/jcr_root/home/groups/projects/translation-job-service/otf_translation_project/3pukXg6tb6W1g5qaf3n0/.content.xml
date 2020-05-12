@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="3d7bb27b-80dd-3896-8b1e-a658753f9922"
+    rep:authorizableId="projects-otf_translation_project-translationproducer"
+    rep:principalName="projects-otf_translation_project-translationproducer">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        alternateTitle="International Producers"
+        givenName="OTF Translation Project International Producers"/>
+</jcr:root>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0"
+    jcr:created="{Date}2020-04-12T17:37:03.905-04:00"
+    jcr:createdBy="admin"
+    jcr:description="Snapshot of package adobe/aem6:we.retail.config:4.0.0"
+    jcr:lastModified="{Date}2020-04-12T17:37:03.905-04:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    acHandling="IGNORE"
+    buildCount="1"
+    group="adobe/aem6/.snapshot"
+    lastUnwrapped="{Date}2020-04-12T17:37:03.905-04:00"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2020-04-12T17:37:03.905-04:00"
+    lastWrappedBy="admin"
+    name="we.retail.config"
+    version="4.0.0">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/weretail/config"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/weretail/config.publish"
+            rules="[]"/>
+    </filter>
+</jcr:root>

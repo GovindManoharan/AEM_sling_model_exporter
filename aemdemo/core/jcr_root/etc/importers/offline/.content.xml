@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:Folder"
+    jcr:title="Offline Importer (deprecated)"
+    sling:resourceType="cq/ui/components/widget"
+    image="/libs/foundation/components/image"
+    jsLibs="[cq.widgets]"
+    template="/libs/cq/searchpromote/templates/searchpromote"
+    text="/libs/foundation/components/text"
+    textimage="/libs/foundation/components/textimage"
+    xtype="offlineimporter"/>

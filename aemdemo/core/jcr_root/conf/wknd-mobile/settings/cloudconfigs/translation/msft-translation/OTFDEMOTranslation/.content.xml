@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudservicename="msft-translation"
+        cq:lastModified="{Date}2020-05-04T15:22:10.562-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/translation/templates/msft/msft-servicepage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="OTFDEMOTranslation"
+        sling:resourceSuperType="cq/cloudserviceconfigs/components/configpage"
+        sling:resourceType="cq/translation/components/msft/msft-cloudconfig"/>
+</jcr:root>

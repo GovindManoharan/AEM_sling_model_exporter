@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="c966e08c-e975-3a95-90e3-45495493a7c1"
+    rep:authorizableId="reference-processing-service"
+    rep:principalName="reference-processing-service"/>

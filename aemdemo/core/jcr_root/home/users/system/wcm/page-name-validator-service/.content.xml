@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="db695469-83c9-3357-9054-654c55c3bb15"
+    rep:authorizableId="page-name-validator-service"
+    rep:principalName="page-name-validator-service"/>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="e8fdf685-212a-329b-8955-031cdbc724c1"
+    rep:authorizableId="campaign-reader"
+    rep:principalName="campaign-reader"/>

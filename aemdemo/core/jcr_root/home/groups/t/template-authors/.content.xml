@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="9e0886fe-4848-3e28-922b-682d75533ef1"
+    rep:authorizableId="template-authors"
+    rep:principalName="template-authors"
+    sling:resourceType="rep:Group"/>

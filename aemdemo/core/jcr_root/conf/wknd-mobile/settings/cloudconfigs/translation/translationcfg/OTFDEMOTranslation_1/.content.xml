@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudservicename="translation"
+        cq:lastModified="{Date}2020-05-07T19:36:11.365-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/translation/templates/mt-servicepage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="OTFDEMOTranslation_1"
+        sling:resourceType="cq/translation/components/mt-cloudconfig"
+        assets_contentFragmentAssets="inlineMediaAssetsAndAssociatedCollections"
+        assets_defaultCategory="general"
+        assets_defaultTranslationProvider="microsoft"
+        assets_translateAssets="true"
+        assets_translateMetadata="true"
+        assets_translateTags="true"
+        assets_translationWorkflow="machineTranslation"
+        defaultCategory="general"
+        defaultTranslationProvider="microsoft"
+        sites_defaultCategory="general"
+        sites_defaultTranslationProvider="microsoft"
+        sites_translateComponentStrings="true"
+        sites_translateEmbeddedAssets="sitetranslation"
+        sites_translateTags="true"
+        sites_translationWorkflow="machineTranslation"
+        ugcPath="de_at"/>
+</jcr:root>

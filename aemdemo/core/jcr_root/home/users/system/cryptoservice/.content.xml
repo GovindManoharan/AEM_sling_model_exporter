@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="7323c399-9f44-3585-8424-1c397b190a14"
+    rep:authorizableId="cryptoservice"
+    rep:principalName="cryptoservice"/>

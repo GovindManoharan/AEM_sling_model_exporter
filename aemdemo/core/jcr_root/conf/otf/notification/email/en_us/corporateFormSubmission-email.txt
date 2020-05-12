@@ -1,0 +1,25 @@
+From: noreply-uat@orangetheory.com
+Subject: Corporate Lead Request - EN_US
+
+<div style="color: blue;">
+
+Hello,
+
+The Below Corporate Membership Form is Submitted!!
+Below are the details:
+Company Name : ${companyName}
+Interested In : ${interestedIn}
+Number of Employees : ${numEmployees}
+Studio : ${studio}
+Studio State : ${studioState}
+Phone Number : ${phoneNumber}
+Contact Name: ${contactName}
+Email: ${emailAddress}
+Goals: ${goals}
+
+From,
+Orangetheory Fitness
+-------------------------------------------------------
+This is an automatic generated message. Please do not reply.
+
+</div>

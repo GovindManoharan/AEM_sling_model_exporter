@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="4ceb4bab-38db-3169-b7c7-6e2b00869160"
+    rep:authorizableId="group-reader-service"
+    rep:principalName="group-reader-service"/>

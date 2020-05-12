@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2020-04-12T17:49:19.342-04:00"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/libs/settings/wcm/template-types/html5page"
+        jcr:description="My first editable template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="MyFirstTemplate"
+        status="enabled"/>
+</jcr:root>

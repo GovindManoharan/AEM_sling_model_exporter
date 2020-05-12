@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0"
+    jcr:created="{Date}2020-04-12T17:36:51.393-04:00"
+    jcr:createdBy="admin"
+    jcr:description="Snapshot of package adobe/aem6/sample:we.retail.ui.content:4.0.0"
+    jcr:lastModified="{Date}2020-04-12T17:36:51.393-04:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    acHandling="MERGE_PRESERVE"
+    buildCount="1"
+    group="adobe/aem6/sample/.snapshot"
+    lastUnwrapped="{Date}2020-04-12T17:36:51.393-04:00"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2020-04-12T17:36:51.393-04:00"
+    lastWrappedBy="admin"
+    name="we.retail.ui.content"
+    version="4.0.0">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/conf/we-retail"
+            rules="[exclude:/conf/we-retail/settings/dam/cfm(/.*)?]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/campaigns/we-retail"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/catalogs/we-retail/en/website-catalog"
+            rules="[]"/>
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/catalogs/we-retail/en/website-template-pages"
+            rules="[]"/>
+        <f4
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            root="/content/dam/collections/w/we-retail"
+            rules="[]"/>
+        <f5
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/dam/projects/we-retail"
+            rules="[]"/>
+        <f6
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/we-retail"
+            rules="[exclude:/content/we-retail/us/en/community]"/>
+        <f7
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/projects/we-retail"
+            rules="[]"/>
+        <f8
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/home/groups/projects/admin/we_retail"
+            rules="[]"/>
+    </filter>
+</jcr:root>

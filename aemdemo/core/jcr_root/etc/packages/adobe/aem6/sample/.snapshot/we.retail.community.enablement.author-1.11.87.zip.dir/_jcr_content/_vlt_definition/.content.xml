@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0"
+    jcr:created="{Date}2020-04-12T17:37:13.795-04:00"
+    jcr:createdBy="admin"
+    jcr:description="Snapshot of package adobe/aem6/sample:we.retail.community.enablement.author:1.11.87"
+    jcr:lastModified="{Date}2020-04-12T17:37:13.795-04:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    acHandling="MERGE_PRESERVE"
+    buildCount="1"
+    group="adobe/aem6/sample/.snapshot"
+    lastUnwrapped="{Date}2020-04-12T17:37:13.795-04:00"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2020-04-12T17:37:13.795-04:00"
+    lastWrappedBy="admin"
+    name="we.retail.community.enablement.author"
+    version="1.11.87">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/we-retail/us/en/community/resources/en"
+            rules="[exclude:/content/we-retail/us/en/community/resources/en/.*/se_assets,exclude:/content/we-retail/us/en/community/resources/en/.*/se_card-image]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            root="/home/groups/community"
+            rules="[exclude:/home/groups/community/community-administrators]"/>
+    </filter>
+</jcr:root>

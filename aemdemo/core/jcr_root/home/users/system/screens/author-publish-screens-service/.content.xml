@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="97681627-a91c-3bd7-b8b7-605e93edcb27"
+    rep:authorizableId="author-publish-screens-service"
+    rep:principalName="author-publish-screens-service"/>

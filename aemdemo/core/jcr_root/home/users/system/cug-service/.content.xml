@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="df1d99fa-220a-338e-82ba-53aa579d911e"
+    rep:authorizableId="cug-service"
+    rep:principalName="cug-service"/>

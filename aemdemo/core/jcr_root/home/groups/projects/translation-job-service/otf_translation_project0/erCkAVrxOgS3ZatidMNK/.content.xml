@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:title="OTF Translation Project"
+    jcr:uuid="41e7919a-39ec-3aac-b966-35b232a12da9"
+    rep:authorizableId="projects-otf_translation_project0"
+    rep:members="{WeakReference}[21232f29-7a57-35a7-8389-4a0e4a801fc3]"
+    rep:principalName="projects-otf_translation_project0">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        alternateTitle="Observers"
+        givenName="OTF Translation Project Observers"/>
+</jcr:root>

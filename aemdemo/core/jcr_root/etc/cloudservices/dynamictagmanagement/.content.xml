@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-09-26T13:32:27.764+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Dynamic Tag Management (Deprecated)"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        apiUrl="https://api.omniture.com/tagmanagement"
+        category="marketingcloud"
+        componentReference="cq/dtm/components/dynamictagmanagement"
+        connectedWhen="property"
+        description="Adobe® Dynamic Tag Management allows marketers to quickly manage tags and distribute data."
+        inclusionRank="{Long}-1"
+        ranking="15"
+        solution="marketingcloud"
+        thumbnailPath="/libs/cq/dtm/templates/dynamictagmanagement/thumbnail.png"/>
+    <rep:policy/>
+</jcr:root>

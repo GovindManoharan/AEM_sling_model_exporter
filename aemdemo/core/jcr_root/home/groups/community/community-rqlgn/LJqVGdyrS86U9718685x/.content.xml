@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="80186e75-c810-3c26-b769-7d4b2df588ac"
+    rep:authorizableId="community-community-rqlgn-administrators"
+    rep:principalName="community-community-rqlgn-administrators"
+    path="/content/we-retail/us/en/community">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        aboutMe="administrators for site /content/we-retail/us/en/community"
+        givenName="Community Community Administrators"/>
+</jcr:root>

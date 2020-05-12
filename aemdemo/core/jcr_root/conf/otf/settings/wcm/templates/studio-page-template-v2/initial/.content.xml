@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-04-01T17:54:40.434+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/otf/settings/wcm/templates/studio-page-template-v2"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="otf/components/structure/studiopage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <experiencefragment
+                jcr:created="{Date}2017-09-30T10:31:47.759+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-04-01T12:46:24.247Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"/>
+            <studioinfo
+                jcr:created="{Date}2019-12-10T11:01:59.594+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-12-10T11:02:30.451+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="otf/components/content/organism/studioInfo/v1/studioInfo"/>
+            <responsivegrid
+                jcr:created="{Date}2019-12-05T20:36:05.368+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-12-05T20:49:14.000+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+    </jcr:content>
+</jcr:root>

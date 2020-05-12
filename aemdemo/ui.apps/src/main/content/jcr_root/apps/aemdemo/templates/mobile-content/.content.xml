@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:description="Template with focus on content."
+    jcr:primaryType="cq:Template"
+    jcr:title="AEM DEMO Mobile Content Static Page"
+    allowedPaths="[/content/aemdemo/.+]"
+    ranking="{Long}100">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="aemdemo/components/page">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemdemo/components/text"
+                text="&lt;p>This is a content page&lt;/p>"
+                textIsRich="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>

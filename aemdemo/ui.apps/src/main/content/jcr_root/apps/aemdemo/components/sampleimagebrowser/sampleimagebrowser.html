@@ -1,0 +1,21 @@
+
+<div class="cmp-helloworld" data-cmp-is="helloworld">
+	<h2 class="cmp-helloworld__title">Sample Sites AEM component. Edit
+		here to capture title and Image</h2>
+
+	<sly
+		data-sly-use.sampleComponent="com.aemdemo.core.models.SampleImageModelExporter">
+	<div class="cmp-helloworld__item">
+		<p class="cmp-helloworld__item-label">Title :</p>
+		<pre class="cmp-helloworld__item-output"
+			data-cmp-hook-helloworld="property">${sampleComponent.title}</pre>
+	</div>
+
+	<div class="cmp-helloworld__item">
+		<p class="cmp-helloworld__item-label">Image path :</p>
+		<pre class="cmp-helloworld__item-output"
+			data-cmp-hook-helloworld="property">${sampleComponent.imagePath}</pre>
+	</div>
+	</sly>
+
+</div>

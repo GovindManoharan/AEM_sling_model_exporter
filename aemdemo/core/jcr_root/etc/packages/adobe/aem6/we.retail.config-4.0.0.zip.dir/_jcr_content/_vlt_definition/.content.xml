@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0"
+    jcr:created="{Date}2019-02-25T22:45:19.625+02:00"
+    jcr:createdBy="bailescu"
+    jcr:description="We.Retail Parent POM"
+    jcr:primaryType="vlt:PackageDefinition"
+    group="adobe/aem6"
+    lastUnpacked="{Date}2020-04-12T17:37:04.030-04:00"
+    lastUnpackedBy="admin"
+    lastUnwrapped="{Date}2020-04-12T17:36:20.359-04:00"
+    name="we.retail.config"
+    requiresRestart="{Boolean}false"
+    requiresRoot="{Boolean}false"
+    version="4.0.0">
+    <thumbnail.png/>
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/weretail/config"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/weretail/config.publish"
+            rules="[]"/>
+    </filter>
+</jcr:root>

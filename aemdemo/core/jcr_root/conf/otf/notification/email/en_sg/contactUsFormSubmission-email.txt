@@ -1,0 +1,23 @@
+From: admin@orangetheory.com
+Subject: You've received a contact request
+<div style="color: blue;">
+Hello,
+
+The Below Contact Us Form is Submitted!!
+
+Name : ${name}
+Existing OTF Member : ${isMember}
+Membership Type : ${membershipType}
+Studio Name: ${studio}
+Question : ${question}
+Sub Question : ${subQuestion}
+Phone Number : ${phoneNumber}
+Email: ${emailAddress}
+Comments: ${comments}
+
+From,
+Orangetheory Fitness
+-------------------------------------------------------
+This is an automatic generated message. Please do not reply.
+
+</div>

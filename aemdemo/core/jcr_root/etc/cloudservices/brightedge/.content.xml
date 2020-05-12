@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-08-20T16:20:56.906-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="BrightEdge Account Configurations"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="BrightEdge Content Optimizer"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        connectedWhen="username"
+        description="Creating content optimized for search – the largest channel – is challenging. Writers can create great content, but not know how to maximize search discoverability, traffic, and revenue or be able to compare their content to competitors in real-time. BrightEdge Content Optimizer streamlines the process and adds enterprise governance &amp; reporting to empower content creators to quickly optimize their content for search."
+        ranking="200"
+        serviceAdminUrl="http://brtedg.co/PPcaLr"
+        serviceUrl="http://brtedg.co/1gIoG4T"
+        showOnDashboard="{Boolean}true"
+        thumbnailPath="/libs/cq/contentinsight/templates/brightedge-cloudservice-config/thumbnail.png"
+        visible="{Boolean}true"/>
+</jcr:root>

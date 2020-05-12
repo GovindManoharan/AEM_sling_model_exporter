@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="9ad4f1b8-b7e2-32e8-8703-97ca8777ca3f"
+    rep:authorizableId="dam-replication-service"
+    rep:principalName="dam-replication-service"/>

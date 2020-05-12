@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:configTemplate="/libs/cq/translation/templates/mt-servicepage"
+        cq:configType="translationIntegrationConfig"
+        cq:lastModified="{Date}2020-05-04T15:20:20.351-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="Translation Integration"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Translation Integration"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        allowMultiple="{Boolean}true"
+        category="marketingcloud"
+        configsPath="[/conf/wknd-mobile/settings/cloudconfigs/translation/translationcfg,/conf/global/settings/cloudconfigs/translation/translationcfg]"
+        connectedWhen="defaultTranslationProvider"
+        defaultName="translation"
+        description="Manage routing configurations for sending content to configured translation connectors. Select the combination of configured translation connectors and content type to send for translation."
+        inclusionRank="{Long}201"
+        mergeList="true"
+        ranking="30"
+        serviceAdminUrl="http://www.adobe.com/go/tif"
+        serviceUrl="http://www.adobe.com/go/tif"
+        showOnDashboard="{Boolean}true"
+        summaryPanelPath="/libs/cq/translation/components/mt-cloudconfig/panel"
+        thumbnailPath="/libs/cq/translation/templates/mt-servicepage/thumbnail.png"/>
+    <OTFDEMOTranslation_1/>
+</jcr:root>

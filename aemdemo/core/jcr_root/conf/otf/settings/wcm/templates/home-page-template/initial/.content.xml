@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-09-24T16:33:01.374+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/otf/settings/wcm/templates/home-page-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="otf/components/structure/homepage">
+        <root
+            jcr:lastModified="{Date}2019-11-14T11:49:21.088+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2019-11-14T11:50:22.605+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-11-14T11:52:32.389+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            <hero
+                jcr:created="{Date}2019-11-15T16:04:30.959+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-11-15T16:05:43.354+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="otf/components/content/organism/hero/v1/hero"
+                nextArrowAltText="Display next panel"
+                previousArrowAltText="Display previous panel"/>
+        </root>
+    </jcr:content>
+</jcr:root>

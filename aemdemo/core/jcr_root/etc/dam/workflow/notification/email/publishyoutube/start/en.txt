@@ -1,0 +1,36 @@
+subject: YouTube Publish Notification
+
+<div>
+<br/><br/>
+<div style="font-family:Arial,sans-serif;color:#868686;margin-left:1rem">
+    <div align="center">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100.0%">
+<tbody>
+<tr>
+<td style="padding:0in 0in 0in 0in">
+<p><span><img border="0" src="https://login.marketing.adobe.com/etc/mac/emailimages/mac.png" class="CToWUd"></span></p>
+</td>
+<td width="100%" nowrap="" style="width:100.0%;padding:0in 0in 0in 0in">
+<p><strong><span style="font-size:11.0pt;color:#757575">&nbsp;Adobe Marketing Cloud&nbsp; &nbsp; &nbsp;</span></strong><span style="font-size:11.0pt"><u></u><u></u></span></p>
+</td>
+<td style="padding:0in 0in 0in 0in">
+<p><span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+    Hi,<br/><br/>
+    We have started uploading your asset "${assetName}" to YouTube for the following channels:
+    <ul>
+        ${channelListItems}
+    </ul>
+    Thanks,<br/>
+    The Assets Team<br/>
+    <hr/>
+    <span style="font-size:7.0pt;font-family:Arial,sans-serif;color:#868686">
+    Adobe, the Adobe logo, Adobe Marketing Cloud, and the Adobe Marketing Cloud logo are either registered trademarks of Adobe Systems Incorporate in the United States and/or other countries.<br/>
+    © 2014 Adobe systems Incorporated. All rights reserved.
+    </span>
+</div>
+</div>

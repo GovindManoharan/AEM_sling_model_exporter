@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="345bef9b-ffa1-3e09-85df-1e03cfa0fb37"
+    rep:authorizableId="replication-receiver"
+    rep:disabled="Please enable this user before using it as replication transport agent."
+    rep:principalName="replication-receiver"/>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="a3256358-81ec-3b15-8613-290df08e80e7"
+    rep:authorizableId="omnisearch-service"
+    rep:principalName="omnisearch-service"/>

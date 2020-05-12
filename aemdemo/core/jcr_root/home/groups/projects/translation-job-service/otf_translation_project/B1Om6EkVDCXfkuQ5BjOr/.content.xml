@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="c50a21fb-f7c7-3272-9920-be9f4f708186"
+    rep:authorizableId="projects-otf_translation_project-editor"
+    rep:principalName="projects-otf_translation_project-editor">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        alternateTitle="Editors"
+        givenName="OTF Translation Project Editors"/>
+</jcr:root>

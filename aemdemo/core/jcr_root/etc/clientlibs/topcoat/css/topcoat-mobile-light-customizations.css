@@ -1,0 +1,132 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2013 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+.topcoat-icon--search
+{
+	background              : url("../img/search_dark.svg") no-repeat;
+	-webkit-background-size : cover;
+	-moz-background-size    : cover;
+	background-size         : cover;
+}
+
+.topcoat-icon-button--quiet
+{
+	top      : 10px;
+	position : absolute;
+}
+
+.topcoat-list__item
+{
+	padding : 0;
+}
+
+.topcoat-list__item a
+{
+	display : block;
+	padding : 1.25rem;
+	width   : 100%;
+}
+
+.topcoat-navigation-bar__item
+{
+	height : 2.75rem;
+}
+
+.topcoat-icon-button--quiet,
+.topcoat-icon-button--quiet:hover,
+.topcoat-icon-button--quiet:hover:focus
+{
+	border     : none;
+	box-shadow : none;
+	background : none;
+}
+
+.with-icons
+{
+	position : relative;
+}
+
+.spinner
+{
+	position : absolute;
+	float    : right;
+	width    : 36px;
+	height   : 36px;
+	top      : 5px;
+	right    : 5px;
+	opacity  : 1;
+}
+
+.spinner:after
+{
+	content             : "";
+	position            : absolute;
+	width               : 200%;
+	height              : 200%;
+	top                 : -50%;
+	left                : -50%;
+	background          : url(../img/spinner2x.png) no-repeat;
+	background-position : center center;
+	background-size     : 50%;
+}
+
+.spinner.spin:after
+{
+	-webkit-animation : rotating 2s linear infinite;
+	animation         : rotating 2s linear infinite;
+}
+
+@-webkit-keyframes rotating
+{
+	from
+	{
+		-webkit-transform : rotate(0deg);
+		transform         : rotate(0deg);
+	}
+	to
+	{
+		-webkit-transform : rotate(360deg);
+		transform         : rotate(360deg);
+	}
+}
+
+.spinner.ng-hide-add,
+.spinner.ng-hide-remove
+{
+	display            : block !important;
+	-webkit-transition : opacity linear 0.5s;
+	transition         : opacity linear 0.5s;
+}
+
+.spinner.ng-hide
+{
+	opacity : 0;
+}
+
+.topcoat-icon--menu-stack {
+	background: url("../img/hamburger_gray.svg") no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.topcoat-icon--search {
+	background: url("../img/search_gray.svg") no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}

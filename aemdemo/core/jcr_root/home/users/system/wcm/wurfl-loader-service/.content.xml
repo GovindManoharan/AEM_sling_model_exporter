@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="08164a97-201c-3a86-8616-516541018f9c"
+    rep:authorizableId="wurfl-loader-service"
+    rep:principalName="wurfl-loader-service"/>

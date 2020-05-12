@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2010-06-24T12:58:24.301+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/wcm/mobile/templates/devicegroup"
+        jcr:description="This device group includes all devices supporting HTML/CSS, image display and JavaScript, i.e. the full rendering of a standard website."
+        jcr:lastModified="{Date}2010-06-24T12:58:24.294+02:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Touch Phones"
+        sling:resourceType="wcm/mobile/components/devicegroup"
+        capabilities="[com.day.cq.wcm.mobile.api.device.capability.Images,com.day.cq.wcm.mobile.api.device.capability.CSS,com.day.cq.wcm.mobile.api.device.capability.JavaScript,com.day.cq.wcm.mobile.api.device.capability.DeviceRotation]"
+        emulators="[/libs/wcm/mobile/components/emulators/ios/iphone4,/libs/wcm/mobile/components/emulators/ios/iphone3gs,/libs/wcm/mobile/components/emulators/ios/ipad,/libs/wcm/mobile/components/emulators/android,/libs/wcm/mobile/components/emulators/htcdiamond,/libs/wcm/mobile/components/emulators/galaxytab]">
+        <emulator
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/mobile/components/devicegroup/emulator"/>
+    </jcr:content>
+    <static.css/>
+</jcr:root>

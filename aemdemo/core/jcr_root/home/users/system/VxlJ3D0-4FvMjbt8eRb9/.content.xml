@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="f83d326f-9349-3e54-baac-6459f5156a46"
+    rep:authorizableId="async-jobs-service"
+    rep:principalName="async-jobs-service"/>

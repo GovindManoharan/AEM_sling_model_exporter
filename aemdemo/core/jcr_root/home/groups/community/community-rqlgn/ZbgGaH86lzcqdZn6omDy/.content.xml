@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="d07a5675-0b68-3c4b-983c-9fcffc67e6bf"
+    rep:authorizableId="community-community-rqlgn-wintersports-fqlju-administrators"
+    rep:principalName="community-community-rqlgn-wintersports-fqlju-administrators"
+    liveCopyPath="/content/we-retail/us/en/community/groups/wintersports">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        givenName="Community Community Wintersports Fqlju Administrators"/>
+</jcr:root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:crx="http://www.day.com/crx/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:ACL">
+    <allow
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="author-publish-screens-service"
+        rep:privileges="{Name}[jcr:read]"/>
+    <allow1
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="author-publish-screens-service"
+        rep:privileges="{Name}[jcr:modifyProperties,jcr:read]">
+        <rep:restrictions
+            jcr:primaryType="rep:Restrictions"
+            rep:glob="/*/devices/*/profile_screens"/>
+    </allow1>
+    <allow2
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="workflow-process-service"
+        rep:privileges="{Name}[crx:replicate]">
+        <rep:restrictions
+            jcr:primaryType="rep:Restrictions"
+            rep:glob="/*/devices/*/profile_screens*"/>
+    </allow2>
+    <allow3
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="author-publish-screens-service"
+        rep:privileges="{Name}[jcr:read,rep:write]">
+        <rep:restrictions
+            jcr:primaryType="rep:Restrictions"
+            rep:glob="/*/devices/*/profile_screens*"/>
+    </allow3>
+    <allow4
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="monitoring-screens-service"
+        rep:privileges="{Name}[jcr:read]"/>
+    <allow5
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="screens-administrators"
+        rep:privileges="{Name}[jcr:versionManagement,jcr:modifyAccessControl,jcr:read,rep:userManagement,jcr:readAccessControl,crx:replicate,rep:write,jcr:lockManagement]"/>
+    <allow6
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="screens-group-admin-service"
+        rep:privileges="{Name}[jcr:versionManagement,jcr:modifyAccessControl,jcr:read,rep:userManagement,jcr:readAccessControl,rep:write,jcr:lockManagement]"/>
+</jcr:root>

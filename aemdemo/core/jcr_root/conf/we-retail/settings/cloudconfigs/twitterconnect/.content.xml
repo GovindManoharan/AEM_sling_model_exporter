@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudservicename="twitterconnect"
+        cq:lastModified="{Date}2018-02-14T19:23:26.303-05:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2018-02-14T19:23:27.320-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/libs/social/connect/templates/twitterconfig"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Twitter Configuration"
+        jcr:uuid="f0a87b60-f0e6-4acf-b54f-4d286ba42cbd"
+        sling:resourceType="social/connect/twitter/components/admin/hbs/twitterconfig"
+        oauth.config.id="a9dea3b044e912071cbffd4839016d2e"
+        thumbnailPath="/libs/social/connect/templates/twitterconfig/thumbnail.png">
+        <com.adobe.granite.auth.oauth.provider-twitter-configuration.config/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="9b554c4a-ee9d-3b20-9d5f-886016fd9053"
+    rep:authorizableId="community-community-rqlgn-running-p9ujb-members"
+    rep:members="{WeakReference}[8c81721e-3d98-35fb-bcd4-3d7cb559386e,58677db8-5baa-354f-906d-7d8f065e3966]"
+    rep:principalName="community-community-rqlgn-running-p9ujb-members"
+    liveCopyPath="/content/we-retail/us/en/community/groups/running">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        givenName="Community Community Running P9ujb Members"/>
+</jcr:root>

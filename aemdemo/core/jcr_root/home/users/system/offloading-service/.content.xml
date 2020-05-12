@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="b6aa3ec9-ce10-398a-a57c-ae92d5f0681b"
+    rep:authorizableId="offloading-service"
+    rep:principalName="offloading-service"/>

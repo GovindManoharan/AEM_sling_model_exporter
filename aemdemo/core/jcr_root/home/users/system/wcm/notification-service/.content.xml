@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="8faa8638-f45e-3e2e-ba8c-e485e76b9825"
+    rep:authorizableId="notification-service"
+    rep:principalName="notification-service"/>

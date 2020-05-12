@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="6b410d00-426b-347b-b055-d2c9d7664d94"
+    rep:authorizableId="community-community-rqlgn-skiing-mfpcv-communitymanagers"
+    rep:members="{WeakReference}[ed0f0094-0d44-37ba-9140-dec426b0ce19]"
+    rep:principalName="community-community-rqlgn-skiing-mfpcv-communitymanagers"
+    liveCopyPath="/content/we-retail/us/en/community/groups/skiing">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        givenName="Community Community Skiing Mfpcv Communitymanagers"/>
+</jcr:root>

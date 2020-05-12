@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0"
+    jcr:created="{Date}2020-04-12T17:34:28.690-04:00"
+    jcr:createdBy="admin"
+    jcr:description="Snapshot of package adobe/aem6/sample:aem-sample-replication-config:0.0.2"
+    jcr:lastModified="{Date}2020-04-12T17:34:28.690-04:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    acHandling="MERGE_PRESERVE"
+    buildCount="1"
+    group="adobe/aem6/sample/.snapshot"
+    lastUnwrapped="{Date}2020-04-12T17:34:28.690-04:00"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2020-04-12T17:34:28.690-04:00"
+    lastWrappedBy="admin"
+    name="aem-sample-replication-config"
+    version="0.0.2">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.author/flush"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.author/publish"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.author/publish_reverse"
+            rules="[]"/>
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.author/static"
+            rules="[]"/>
+        <f4
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.author/test_and_target"
+            rules="[]"/>
+        <f5
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.publish/flush"
+            rules="[]"/>
+        <f6
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/replication/agents.publish/outbox"
+            rules="[]"/>
+    </filter>
+</jcr:root>

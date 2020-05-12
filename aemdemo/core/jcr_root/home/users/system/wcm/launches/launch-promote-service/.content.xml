@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="c6f682fb-0b59-35b2-aa1b-f706332fb18a"
+    rep:authorizableId="launch-promote-service"
+    rep:principalName="launch-promote-service"/>

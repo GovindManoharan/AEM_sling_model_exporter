@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="a9aa8f2b-279e-34c5-b445-84eb48f2d91b"
+    rep:authorizableId="experience-fragments-service"
+    rep:principalName="experience-fragments-service"/>

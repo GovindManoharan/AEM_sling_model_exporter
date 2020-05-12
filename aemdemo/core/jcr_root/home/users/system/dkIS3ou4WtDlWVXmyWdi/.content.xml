@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="e2484592-c2a2-3917-9040-a5432d4c9d2c"
+    rep:authorizableId="projects-service"
+    rep:principalName="projects-service"/>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <rep:policy/>
+    <jcr:content
+        cq:lastModified="{Date}2011-10-05T18:26:42.526+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="Increase Content Relevance through Conversion Website Optimization"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Adobe Target"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        category="marketingcloud"
+        componentReference="cq/analytics/components/testandtarget"
+        connectedWhen="clientcode"
+        description="Adobe® Target™ gives marketers a conversion website optimization tool with the necessary capabilities to continually make their online content and offers more relevant to their customers — yielding greater conversion."
+        descriptionExtended="With Adobe Target, you will learn efficiently, target effectively and employ popular testing &amp; targeting approaches to increase relevance and conversion, including: A/B, MVT, segment and 1-to-1 from a single application — eliminating the need for multiple-point solutions. Adobe Target is part of the Adobe Marketing Cloud of applications for online business optimization."
+        inclusionRank="{Long}100"
+        ranking="30"
+        serviceAdminUrl="https://my.omniture.com"
+        serviceUrl="http://www.omniture.com/offer/286?s_osc=23980"
+        solution="target"
+        summaryPanelPath="/libs/cq/analytics/components/testandtargetpage/panel"
+        thumbnailPath="/libs/cq/analytics/templates/testandtarget/thumbnail.png"/>
+    <statistics jcr:primaryType="nt:unstructured">
+        <mbox
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Mboxes"
+            total="{Long}0"/>
+        <offer
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Offers"
+            total="{Long}0"/>
+    </statistics>
+    <defaults
+        jcr:mixinTypes="[rep:AccessControllable]"
+        jcr:primaryType="nt:unstructured"
+        maxProfileParams="{Long}11">
+        <rep:policy/>
+    </defaults>
+</jcr:root>

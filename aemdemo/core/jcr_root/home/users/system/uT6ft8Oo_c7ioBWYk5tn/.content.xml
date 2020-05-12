@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="adfb653f-c41a-3003-8bf5-637cefe0df97"
+    rep:authorizableId="sling-scripting"
+    rep:principalName="sling-scripting"/>

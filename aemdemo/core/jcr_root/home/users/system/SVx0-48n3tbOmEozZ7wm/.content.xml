@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="38386955-7c46-326b-b7cb-580496cab1b6"
+    rep:authorizableId="dam-reports-manager-service"
+    rep:principalName="dam-reports-manager-service"/>

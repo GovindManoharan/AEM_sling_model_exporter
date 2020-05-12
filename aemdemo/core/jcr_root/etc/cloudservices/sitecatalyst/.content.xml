@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <rep:policy/>
+    <jcr:content
+        cq:lastModified="{Date}2011-09-26T13:32:11.677+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="Actionable Web Analytics"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Adobe Analytics"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        category="marketingcloud"
+        componentReference="cq/analytics/components/sitecatalyst"
+        connectedWhen="username"
+        description="Adobe® Analytics® provides marketers with actionable, real-time web analytics intelligence about digital strategies and marketing initiatives."
+        descriptionExtended="Adobe Analytics  helps marketers quickly identify the most profitable paths through a website, segment traffic to spot high-value web visitors, determine where visitors are navigating away from the site, and identify critical success metrics for online marketing campaigns. Adobe Analytics is part of the Adobe Marketing Cloud of applications for online business optimizations."
+        inclusionRank="{Long}200"
+        pageReportUrl="https://sitecatalyst.omniture.com/sc15/reports/index.html?a=Report.Standard&amp;switch_accnt={REPORTSUITE}&amp;r=Report.PageSummary&amp;ssSession={SESSION}&amp;jpj={JPJ}&amp;rp=newpage|{PAGEID};page_type|;"
+        ranking="20"
+        selectableChildren="[/libs/cq/analytics/templates/framework]"
+        serviceAdminUrl="https://my.omniture.com"
+        serviceUrl="https://www.adobe.com/marketing-cloud/web-analytics.html"
+        summaryPanelPath="/libs/cq/analytics/components/sitecatalystpage/panel"
+        thumbnailPath="/libs/cq/analytics/templates/sitecatalyst/thumbnail.png"/>
+    <defaults
+        jcr:mixinTypes="[rep:AccessControllable]"
+        jcr:primaryType="nt:unstructured"
+        charSet="UTF-8"
+        currencyCode="USD"
+        linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls"
+        linkExternalFilters="''"
+        linkInternalFilters="'javascript:,'+window.location.hostname"
+        linkLeaveQueryString="{Boolean}false"
+        linkTrackEvents="None"
+        linkTrackVars="None"
+        trackDownloadLinks="{Boolean}true"
+        trackExternalLinks="{Boolean}true"
+        trackInlineStats="true">
+        <rep:policy/>
+    </defaults>
+    <statistics jcr:primaryType="nt:unstructured">
+        <configurations
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Configurations"
+            total="{Long}1"/>
+        <frameworks
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Frameworks"
+            total="{Long}1"/>
+    </statistics>
+</jcr:root>

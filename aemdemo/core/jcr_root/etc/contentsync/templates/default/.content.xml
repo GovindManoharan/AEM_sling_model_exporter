@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <page
+        jcr:primaryType="nt:unstructured"
+        deep="{Boolean}false"
+        extension="html"
+        includeImages="{Boolean}true"
+        type="pages"/>
+    <design
+        jcr:primaryType="nt:unstructured"
+        type="copy"/>
+    <defaultDesign
+        jcr:primaryType="nt:unstructured"
+        path="/libs/settings/wcm/designs/default"
+        type="copy"/>
+    <foundation.clientlibrarymanager.js
+        jcr:primaryType="nt:unstructured"
+        extension="js"
+        path="/etc/clientlibs/granite/clientlibrarymanager"
+        type="clientlib"/>
+</jcr:root>

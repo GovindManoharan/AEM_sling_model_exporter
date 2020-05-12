@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="AEM Assets Brand Portal."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Assets Brand Portal"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        category="marketingcloud"
+        connectedWhen="tenantURL"
+        description="AEM Assets Brand Portal."
+        descriptionExtended="The most effective method for sharing and distributing assets with external partners and vendors."
+        ranking="40"
+        serviceAdminUrl="https://brand-portal.adobe.com"
+        serviceUrl="https://brand-portal.adobe.com"
+        solution="marketingcloud"
+        thumbnailPath="/libs/dam/templates/marketingcloud/thumbnail.png"
+        visible="{Boolean}true"/>
+    <rep:policy/>
+</jcr:root>

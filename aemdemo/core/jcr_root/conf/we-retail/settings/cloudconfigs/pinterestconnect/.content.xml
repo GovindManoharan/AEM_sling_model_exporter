@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudservicename="pinterestconnect"
+        cq:lastModified="{Date}2018-02-14T19:23:26.381-05:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2018-02-14T19:23:27.082-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/libs/social/connect/templates/pinterestconfig"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Pinterest Configuration"
+        jcr:uuid="6f0c7113-ecc1-465b-92d5-3a664b288693"
+        sling:resourceType="social/connect/pinterest/components/admin/hbs/pinterestconfig"
+        oauth.config.id="a58fb9183f67c267daad8da65e3338c0"
+        thumbnailPath="/libs/social/connect/templates/pinterestconfig/thumbnail.png">
+        <com.adobe.granite.auth.oauth.provider-pinterest-configuration.config/>
+    </jcr:content>
+</jcr:root>

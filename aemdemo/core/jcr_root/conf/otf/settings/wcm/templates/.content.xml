@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <campaign-page-template/>
+    <booking-page-template/>
+    <redirect-template/>
+    <promotional-page-template/>
+    <article-landing-page-template/>
+    <base-page-template/>
+    <experience-fragment-template-otf/>
+    <faq-template/>
+    <home-page-template/>
+    <location-finder-page-template/>
+    <membership-page-template/>
+    <studio-page-template/>
+    <workout-page-template/>
+    <rep:policy/>
+    <jobs-career-page-template/>
+    <article-page-template/>
+    <generic-page-template/>
+    <studio-page-template-v2/>
+</jcr:root>

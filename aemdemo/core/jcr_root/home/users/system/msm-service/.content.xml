@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="cd773d7d-a0b8-3f66-a38e-742e2f6d6f8e"
+    rep:authorizableId="msm-service"
+    rep:principalName="msm-service"/>

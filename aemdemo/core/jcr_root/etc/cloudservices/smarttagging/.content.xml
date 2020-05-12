@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Assets Smart Tags"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        allowMultiple="{Boolean}false"
+        category="marketingcloud"
+        componentReference="dam/components/smarttaggingservicepage"
+        connectedWhen="serviceUrl"
+        description="Automatically detect smart tags for an image using this service."
+        ranking="100"
+        serviceUrl="https://docs.adobe.com/content/docs/en/aem/6-2/p/smart-tags.html"
+        solution="marketingcloud"/>
+    <rep:policy/>
+</jcr:root>

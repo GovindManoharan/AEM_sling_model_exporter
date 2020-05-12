@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="Product Importer"
+    sling:resourceType="cq/ui/components/widget"
+    importButtonLabel="Import Products"
+    jsLibs="[cq.commerce.admin]"
+    operation="import"
+    sourceDescription="File containing product definitions"
+    storeNameDescription="Products will be imported to /var/commerce/products/{store name}/"
+    url="/libs/commerce/products"
+    xtype="commerceimporter">
+    <rep:policy/>
+</jcr:root>

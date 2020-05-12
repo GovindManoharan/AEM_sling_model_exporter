@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="d4eb8148-6718-3158-9d65-ffcc0b283a24"
+    rep:authorizableId="campaign-cloudservice"
+    rep:principalName="campaign-cloudservice"/>

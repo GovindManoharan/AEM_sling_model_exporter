@@ -1,0 +1,10 @@
+
+<div class="cmp-helloworld" data-cmp-is="helloworld">
+	<h2 class="cmp-helloworld__title">content fragment. Edit here</h2>
+
+	<sly data-sly-use.model="com.aemdemo.core.models.ContentFragmentModel">
+	<ul data-sly-list.key="${model.fragmentValues}">
+		<li>${key}: ${model.fragmentValues[key]}</li>
+	</ul>
+	</sly>
+</div>

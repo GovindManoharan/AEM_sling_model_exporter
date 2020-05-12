@@ -1,0 +1,23 @@
+From: admin@orangetheory.com
+Subject: New Corporate Membership Request for Dominican Republic
+<div style="color: blue;">
+Hello,
+
+The Below Corporate Membership Form is Submitted!!
+
+Company Name : ${companyName}
+Interested In : ${interestedIn}
+Number of Employees : ${numEmployees}
+Studio : ${studio}
+Studio State : ${studioState}
+Phone Number : ${phoneNumber}
+Contact Name: ${contactName}
+Email: ${emailAddress}
+Goals: ${goals}
+
+From,
+Orangetheory Fitness
+-------------------------------------------------------
+This is an automatic generated message. Please do not reply.
+
+</div>

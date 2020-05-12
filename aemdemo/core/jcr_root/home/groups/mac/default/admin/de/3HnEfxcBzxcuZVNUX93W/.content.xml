@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:title="de"
+    jcr:uuid="b7ea79f4-d818-3906-8a42-258abf2d2753"
+    rep:authorizableId="mac-default-de"
+    rep:members="{WeakReference}[21232f29-7a57-35a7-8389-4a0e4a801fc3]"
+    rep:principalName="mac-default-de"/>

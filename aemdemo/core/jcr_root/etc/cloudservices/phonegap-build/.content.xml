@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-08-20T16:20:56.906-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="PhoneGap Build Account Configurations"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="PhoneGap Build"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        category="creativecloud"
+        connectedWhen="pgBuildUserId"
+        description="Take the pain out of compiling PhoneGap apps. Get app-store ready apps without the headache of maintaining native SDKs. Our PhoneGap Build service does the work for you by compiling in the cloud."
+        descriptionExtended="PhoneGap is a mobile application development framework, based upon the open source Apache Cordova project. It allows you to write an app once with HTML, CSS and JavaScript, and then deploy it to a wide range of mobile devices without losing the features of a native app. PhoneGap Build is a cloud-based service built on top of the PhoneGap framework. It allows you to easily build those same mobile apps in the cloud."
+        ranking="50"
+        serviceAdminUrl="http://build.phonegap.com/"
+        serviceUrl="http://build.phonegap.com/"
+        serviceUrlLabel="PhoneGap Build"
+        showOnDashboard="{Boolean}true"
+        thumbnailPath="/libs/mobileapps/templates/phonegap/phonegap-build-cloudservice-config/thumbnail.png"
+        visible="{Boolean}true"/>
+</jcr:root>

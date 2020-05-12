@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="1518b4ba-6dba-3a0c-b238-b0fdc39f4758"
+    rep:authorizableId="assetusagetrackeruser"
+    rep:principalName="assetusagetrackeruser"/>

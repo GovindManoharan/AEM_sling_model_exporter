@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="b69e7207-05a6-3896-b3f2-1f299f14647c"
+    rep:authorizableId="idsjobprocessor"
+    rep:principalName="idsjobprocessor"/>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="a9300c03-1d15-3789-99f7-329def88b0f2"
+    rep:authorizableId="projects-otf_translation_project1-owner"
+    rep:members="{WeakReference}[21232f29-7a57-35a7-8389-4a0e4a801fc3]"
+    rep:principalName="projects-otf_translation_project1-owner">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        alternateTitle="Owners"
+        givenName="OTF Translation Project Owners"/>
+</jcr:root>

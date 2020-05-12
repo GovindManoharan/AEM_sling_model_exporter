@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2020-03-04T12:04:20.600+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2020-03-04T12:07:00.795+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:templateType="/conf/otf/settings/wcm/template-types/base-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Campaign Page Template"
+        status="enabled"/>
+</jcr:root>

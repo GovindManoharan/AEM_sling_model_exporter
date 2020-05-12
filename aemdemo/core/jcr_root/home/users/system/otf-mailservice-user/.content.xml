@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="e7e582ec-0326-3ecb-8b93-418f38c72d48"
+    rep:authorizableId="otf-mailservice"
+    rep:principalName="otf-mailservice"/>

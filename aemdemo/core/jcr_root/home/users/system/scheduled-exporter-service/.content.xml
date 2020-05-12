@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="cf1fa340-2b92-37f1-85e5-ae6b89062cc9"
+    rep:authorizableId="scheduled-exporter-service"
+    rep:principalName="scheduled-exporter-service"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    oauth.access.token.persist="{Boolean}true"
+    oauth.client.id="4878505143636600000"
+    oauth.client.secret="7872ec2c093172c5490927e41eb3471203339d0645f716f25cdf02ee900251b0"
+    oauth.config.id="a58fb9183f67c267daad8da65e3338c0"
+    oauth.config.provider.id="soco-pinterest"
+    oauth.create.users="true"
+    oauth.encode.userids="false"
+    oauth.scope="email"/>

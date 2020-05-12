@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="6382051c-528a-31a5-b285-4ea90fb6bb13"
+    rep:authorizableId="sling-context-aware-config-web-console"
+    rep:principalName="sling-context-aware-config-web-console"/>

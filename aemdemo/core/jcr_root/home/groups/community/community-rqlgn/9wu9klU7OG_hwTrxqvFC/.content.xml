@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="3a96d454-1be8-37a0-bd71-45db131daa13"
+    rep:authorizableId="community-community-rqlgn-surfing-zcqya-communitymanagers"
+    rep:members="{WeakReference}[ed0f0094-0d44-37ba-9140-dec426b0ce19]"
+    rep:principalName="community-community-rqlgn-surfing-zcqya-communitymanagers"
+    liveCopyPath="/content/we-retail/us/en/community/groups/surfing">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        givenName="Community Community Surfing Zcqya Communitymanagers"/>
+</jcr:root>

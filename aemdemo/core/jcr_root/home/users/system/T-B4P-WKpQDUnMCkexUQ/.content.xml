@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="2018c732-1e79-3c1e-88b3-de3ce2ceee41"
+    rep:authorizableId="dam-writer-service"
+    rep:principalName="dam-writer-service"/>

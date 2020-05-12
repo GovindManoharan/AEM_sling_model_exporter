@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="2deecec3-c18d-3ee5-8d6a-c04393953af3"
+    rep:authorizableId="scene7-config-writer-service"
+    rep:principalName="scene7-config-writer-service"/>

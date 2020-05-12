@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:crx="http://www.day.com/crx/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:ACL">
+    <deny
+        jcr:primaryType="rep:DenyACE"
+        rep:principalName="user-administrators"
+        rep:privileges="{Name}[jcr:versionManagement,jcr:modifyAccessControl,rep:userManagement,jcr:readAccessControl,crx:replicate,rep:write,jcr:lifecycleManagement,jcr:retentionManagement,jcr:lockManagement]"/>
+</jcr:root>

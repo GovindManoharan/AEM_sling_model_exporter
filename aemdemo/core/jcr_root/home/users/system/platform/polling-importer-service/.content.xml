@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="cf17c01a-8bfe-32c6-b776-37ed74066613"
+    rep:authorizableId="polling-importer-service"
+    rep:principalName="polling-importer-service"/>

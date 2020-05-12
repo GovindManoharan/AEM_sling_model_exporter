@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="4e74a7ac-f587-3084-a706-dc96f9219b75"
+    rep:authorizableId="monitoringScripts"
+    rep:principalName="monitoringScripts"/>

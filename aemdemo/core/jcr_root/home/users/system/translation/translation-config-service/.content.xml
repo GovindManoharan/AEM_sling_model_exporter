@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="16e5906c-175f-33b2-9f1b-bcc0e6324bf1"
+    rep:authorizableId="translation-config-service"
+    rep:principalName="translation-config-service"/>

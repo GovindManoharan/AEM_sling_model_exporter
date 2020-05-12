@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2019-12-04T20:43:58.410+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2019-12-04T20:44:08.235+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:templateType="/conf/otf/settings/wcm/template-types/base-page"
+        jcr:description="This is Location Finder Page Template for Orange Theory Fitness"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Location Finder Page Template"
+        status="enabled"/>
+</jcr:root>

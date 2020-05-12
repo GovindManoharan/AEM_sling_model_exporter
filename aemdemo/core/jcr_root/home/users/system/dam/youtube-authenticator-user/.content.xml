@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="5d7f0134-32bb-378b-91cd-75da2e8ba5f3"
+    rep:authorizableId="youtube-authenticator-user"
+    rep:principalName="youtube-authenticator-user"/>

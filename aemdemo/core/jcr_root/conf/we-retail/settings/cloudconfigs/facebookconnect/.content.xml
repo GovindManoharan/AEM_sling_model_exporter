@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudservicename="facebookconnect"
+        cq:lastModified="{Date}2018-02-14T19:23:26.076-05:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2018-02-14T19:23:26.647-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/libs/social/connect/templates/facebookconfig"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Facebook Configuration"
+        jcr:uuid="00586efb-86a7-4409-8505-e7ade30f4d50"
+        sling:resourceType="social/connect/facebook/components/admin/hbs/facebookconfig"
+        oauth.config.id="0654f74c177ec80b60f7922a9a6195cf"
+        thumbnailPath="/libs/social/connect/templates/facebookconfig/thumbnail.png">
+        <com.adobe.granite.auth.oauth.provider-facebook-configuration.config/>
+    </jcr:content>
+</jcr:root>

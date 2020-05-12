@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="21c2b180-a554-35ae-a7d5-efd39bb7920f"
+    rep:authorizableId="varmstrong"
+    rep:password="\{SHA-256}19391177f61a2bda-1000-37a81f258014d6130408faf86c00b90bedfe44137552d9fcafc6ef92e04f58d5"
+    rep:principalName="varmstrong">
+    <profile
+        jcr:mixinTypes="[granite:Ranking,mix:title]"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        aboutMe="Virginia works in the Merchandising Acquisition team at We.Retail. She works with vendors to retrieve assets for the products."
+        email="virginia.l.armstrong@we-retail.net"
+        familyName="Armstrong"
+        gender="female"
+        givenName="Virginia"
+        jobTitle="Merchandising Acquisition">
+        <photos/>
+    </profile>
+</jcr:root>

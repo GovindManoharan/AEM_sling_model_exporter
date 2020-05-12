@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="f7f015a6-393c-3e21-8b7c-1f5d4d843a3d"
+    rep:authorizableId="bulk-offline-update-screens-service"
+    rep:principalName="bulk-offline-update-screens-service"/>

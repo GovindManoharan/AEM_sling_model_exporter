@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="cq:Widget"
+    type="select"
+    xtype="selection">
+    <options jcr:primaryType="cq:WidgetCollection">
+        <o1
+            jcr:primaryType="nt:unstructured"
+            text="Gender"
+            value="gender"/>
+        <o2
+            jcr:primaryType="nt:unstructured"
+            text="Age"
+            value="age"/>
+        <o3
+            jcr:primaryType="nt:unstructured"
+            text="Interest"
+            value="interest"/>
+        <o4
+            jcr:primaryType="nt:unstructured"
+            text="Country"
+            value="country"/>
+        <o5
+            jcr:primaryType="nt:unstructured"
+            text="Language"
+            value="language"/>
+    </options>
+</jcr:root>

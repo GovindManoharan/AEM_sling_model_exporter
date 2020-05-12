@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="32fdd04c-597d-303a-bcf9-d4bde244fa79"
+    rep:authorizableId="dtm-reactor-service"
+    rep:principalName="dtm-reactor-service"/>

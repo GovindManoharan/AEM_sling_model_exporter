@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="6c618b3b-8147-3a1b-90c9-9f836678dfca"
+    rep:authorizableId="cavery"
+    rep:password="\{SHA-256}f7cee9405296b12c-1000-9fc189a2a2b95ce9a67b4dc14e52518b5d5de1603abe1c19c4ab673c8fe1ab90"
+    rep:principalName="cavery">
+    <profile
+        jcr:mixinTypes="[granite:Ranking,mix:title]"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        aboutMe="Carlene is Merchandising Manager at We.Retail. She owns the women clothing products."
+        birthday="{Date}1957-08-15T00:00:00.000+01:00"
+        email="cavery@we-retail.net"
+        familyName="Avery"
+        gender="female"
+        givenName="Carlene"
+        jobTitle="Merchandising Manager">
+        <photos/>
+    </profile>
+</jcr:root>

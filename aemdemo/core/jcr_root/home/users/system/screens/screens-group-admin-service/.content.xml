@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="82a1173d-f431-345f-8ba1-77c4e504eb7f"
+    rep:authorizableId="screens-group-admin-service"
+    rep:principalName="screens-group-admin-service"/>

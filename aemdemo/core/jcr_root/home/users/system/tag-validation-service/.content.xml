@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="c310a5ce-223e-34a9-bed8-0839602ec09a"
+    rep:authorizableId="tag-validation-service"
+    rep:principalName="tag-validation-service"/>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="ee581545-b5e5-3c68-8f57-55dd428c2c9e"
+    rep:authorizableId="linkstorage-service"
+    rep:principalName="linkstorage-service"/>

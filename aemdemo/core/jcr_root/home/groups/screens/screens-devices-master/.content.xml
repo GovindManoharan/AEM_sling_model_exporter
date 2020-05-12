@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="55c50260-0b19-3476-a89a-ef9dc8a9e81a"
+    rep:authorizableId="screens-devices-master"
+    rep:principalName="screens-devices-master">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        aboutMe="Screens devices master group"
+        givenName="Screens Devices Master"/>
+</jcr:root>

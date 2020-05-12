@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="sling:Mapping"
+    sling:internalRedirect="[/content/otf/en_us/homepage]">
+    <en-es/>
+    <en-jp/>
+    <en-cl/>
+    <en-il/>
+    <en-sa/>
+    <en-pr/>
+    <en-sg/>
+    <en-gb/>
+    <en-mx/>
+    <en-de/>
+    <en-cr/>
+    <ja-jp/>
+    <en-in/>
+    <en-ch/>
+    <en-co/>
+    <en-pe/>
+    <en-us/>
+    <en-pl/>
+    <en-gt/>
+    <en-kw/>
+    <en-ae/>
+    <en-nz/>
+    <en-do/>
+    <en-au/>
+    <en-ca/>
+    <fr-ca/>
+</jcr:root>

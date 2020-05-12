@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="e0927162-53fb-3414-97ae-6c35a389e8d0"
+    rep:authorizableId="webdavbkpservice"
+    rep:principalName="webdavbkpservice"/>

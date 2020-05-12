@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-27T16:15:18.330+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd-events/settings/wcm/templates/teaser-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <image
+                jcr:lastModified="{Date}2019-02-27T16:15:18.327+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/wknd-events/wknd-events.jpg"/>
+            <title
+                jcr:primaryType="nt:unstructured"
+                jcr:title="WKND Events Tutorial for the SPA Editor"
+                sling:resourceType="foundation/components/title"/>
+            <text
+                jcr:lastModified="{Date}2019-02-27T10:52:08.143+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Discover how to make your Single Page Applications editable in-context with Adobe Experience Manager while consuming all content as headless JSON.&lt;/p>&#xa;&lt;p>This tutorial will guide you through setting up such an editable application that is built with JavaScript frameworks like React or Angular.&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>&lt;a href=&quot;https://adobe.com/go/aem-spa-tutorial&quot; target=&quot;_blank&quot;>Get Started&lt;/a>&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>

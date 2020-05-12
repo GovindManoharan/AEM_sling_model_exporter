@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="56054bd2-820a-37ae-90b0-18160a2d29fa"
+    rep:authorizableId="mac-default-translatecollection-editor"
+    rep:principalName="mac-default-translatecollection-editor"/>

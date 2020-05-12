@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="d04952b3-df94-347c-84fc-2dc28396a62d"
+    rep:authorizableId="administrators"
+    rep:members="{WeakReference}[345bef9b-ffa1-3e09-85df-1e03cfa0fb37]"
+    rep:principalName="administrators">
+    <profile
+        jcr:mixinTypes="[rep:AccessControllable]"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"/>
+</jcr:root>

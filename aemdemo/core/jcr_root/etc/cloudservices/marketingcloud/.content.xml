@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="Adobe® Experience Cloud gives you more ways to maximize and measure your impact."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Adobe® Experience Cloud"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        category="marketingcloud"
+        connectedWhen="tenantURL"
+        description="Adobe® Experience Cloud Connection allows Marketers to synchronize assets between On-Premise/Managed Services AEM Assets and Adobe® Experience Cloud"
+        descriptionExtended="Adobe® Experience Cloud Connection allows Marketers to synchronize assets between On-Premise/Managed Services AEM Assets and Adobe® Experience Cloud. It fosters collaboration with Creatives on Adobe® Creative Cloud. It also allows publishing of approved assets to other Adobe Experience Cloud Solutions."
+        ranking="40"
+        serviceAdminUrl="https://experiencecloud.adobe.com"
+        serviceUrl="https://experiencecloud.adobe.com"
+        solution="marketingcloud"
+        thumbnailPath="/libs/dam/templates/marketingcloud/thumbnail.png"
+        visible="{Boolean}true"/>
+    <rep:policy/>
+</jcr:root>

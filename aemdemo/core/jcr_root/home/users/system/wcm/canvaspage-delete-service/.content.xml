@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="44bd67ba-121f-3f60-864f-00df30f5df67"
+    rep:authorizableId="canvaspage-delete-service"
+    rep:principalName="canvaspage-delete-service"/>

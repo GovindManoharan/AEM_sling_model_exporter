@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="fee46314-cf48-3c13-92eb-b9ecd1279eb1"
+    rep:authorizableId="olive.pixley@spambob.com"
+    rep:password="\{SHA-256}18bda1aa64671ec4-1000-020b1654af033d572b6e26aebcfea5a6c532237c59144e27ab2008b41c9bc3c9"
+    rep:principalName="olive.pixley@spambob.com">
+    <profile
+        jcr:mixinTypes="[granite:Ranking,mix:title]"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        aboutMe="Olive enjoys long distance running. She is a regular customer at We.Retail."
+        birthday="{Date}1991-04-29T00:00:00.000+01:00"
+        email="olive.pixley@spambob.com"
+        familyName="Pixley"
+        gender="female"
+        givenName="Olive">
+        <photos/>
+    </profile>
+</jcr:root>

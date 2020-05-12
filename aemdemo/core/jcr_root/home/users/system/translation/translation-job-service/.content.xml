@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="7473143f-137a-3040-9856-516deb1f1e04"
+    rep:authorizableId="translation-job-service"
+    rep:principalName="translation-job-service"/>

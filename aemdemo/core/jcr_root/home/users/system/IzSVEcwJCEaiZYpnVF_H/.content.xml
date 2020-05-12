@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="d2bde02a-4f80-3d99-9ad8-cc72875c4d33"
+    rep:authorizableId="truststore-reader-service"
+    rep:principalName="truststore-reader-service"/>

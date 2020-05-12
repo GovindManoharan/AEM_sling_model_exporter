@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="d7b5614a-b4aa-34b0-97b2-72b2711fc898"
+    rep:authorizableId="recs-deleted-products-listener-service"
+    rep:principalName="recs-deleted-products-listener-service"/>

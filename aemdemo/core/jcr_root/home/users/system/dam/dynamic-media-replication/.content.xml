@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="ef6929d8-f30d-37f4-8d5b-41131c241404"
+    rep:authorizableId="dynamic-media-replication"
+    rep:principalName="dynamic-media-replication"/>

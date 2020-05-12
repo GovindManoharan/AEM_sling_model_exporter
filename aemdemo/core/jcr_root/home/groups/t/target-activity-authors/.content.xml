@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="23f12d5e-3cc3-3d07-8d6a-bde8a537c744"
+    rep:authorizableId="target-activity-authors"
+    rep:members="{WeakReference}[0c44d27b-ea6d-397a-873b-8d297617ba6d]"
+    rep:principalName="target-activity-authors"
+    sling:resourceType="rep:Group">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        aboutMe="This group can set up Target Activities"
+        givenName="Target Activity Authors"/>
+</jcr:root>

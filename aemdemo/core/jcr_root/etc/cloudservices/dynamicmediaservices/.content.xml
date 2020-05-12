@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-09-26T13:32:27.764+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Dynamic Media (pre 6.3)"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        allowMultiple="{Boolean}false"
+        category="marketingcloud"
+        componentReference="dam/components/dynamicmediaservices"
+        connectedWhen="registrationID"
+        description="Dynamic Media is the industry leading media delivery platform that helps online marketers scale to deliver rich visual experiences on demand, including images and video, to all web, mobile, and social properties."
+        ranking="45"
+        serviceUrl="http://www.adobe.com/marketing-cloud/enterprise-content-management/dynamic-media.html"
+        solution="experiencemanager"
+        thumbnailPath="/libs/dam/templates/dynamicmediaservices/thumbnail.png"/>
+    <rep:policy/>
+</jcr:root>

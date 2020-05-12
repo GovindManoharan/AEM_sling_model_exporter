@@ -1,0 +1,20 @@
+From: admin@orangetheory.com
+Subject: New job application received
+<div style="color: blue;">
+Hello,
+
+You’ve received a new career form submission with resume attached. See form responses below:
+
+Name : ${fullName}
+Phone Number : ${phoneNumber}
+Email : ${emailAddress}
+Studio : ${studio}
+Position : ${position}
+Comments : ${comments}
+
+From,
+OrangeTheory Fitness
+-------------------------------------------------------
+This is an automatic generated message. Please do not reply.
+
+</div>

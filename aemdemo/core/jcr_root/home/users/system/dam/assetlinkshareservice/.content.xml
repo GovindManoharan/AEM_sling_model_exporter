@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="15a700a3-9feb-323b-9870-c82112c9ce26"
+    rep:authorizableId="assetlinkshareservice"
+    rep:principalName="assetlinkshareservice"/>

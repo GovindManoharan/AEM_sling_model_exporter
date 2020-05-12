@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:rep="internal" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="0c44d27b-ea6d-397a-873b-8d297617ba6d"
+    rep:authorizableId="imccoy"
+    rep:password="\{SHA-256}ec3e275974960e1d-1000-50b1668e1ae1db46e2fec057525269ccc651fe13a8d577ecd4fa35f42de40d8e"
+    rep:principalName="imccoy">
+    <profile
+        jcr:mixinTypes="[granite:Ranking,mix:title]"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        aboutMe="Iris is E-Commerce Director at We.Retail"
+        birthday="{Date}1979-03-12T00:00:00.000+01:00"
+        email="iris.r.mccoy@we-retail.net"
+        familyName="Mccoy"
+        gender="female"
+        givenName="Iris"
+        jobTitle="E-Commerce Director">
+        <photos/>
+    </profile>
+</jcr:root>

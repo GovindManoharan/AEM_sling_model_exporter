@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0"
+    jcr:created="{Date}2019-02-25T22:45:49.071+02:00"
+    jcr:createdBy="bailescu"
+    jcr:description="UI apps package for We.Retail"
+    jcr:primaryType="vlt:PackageDefinition"
+    acHandling="merge_preserve"
+    dependencies="[day/cq60/product:cq-content:6.3.0,day/cq60/product:cq-foundation-content:1.3.0,day/cq60/product:cq-commerce-content:1.5.0,day/cq60/product:cq-cloudservices-content:1.3.0,day/cq60/product:cq-integration-dtm-content:1.1.4,adobe/cq60/sample:we.retail.all:[4.0.0\,4.0.0]]"
+    group="adobe/aem6/sample"
+    lastUnpacked="{Date}2020-04-12T17:36:51.313-04:00"
+    lastUnpackedBy="admin"
+    lastUnwrapped="{Date}2020-04-12T17:36:19.609-04:00"
+    name="we.retail.ui.apps"
+    requiresRestart="{Boolean}false"
+    requiresRoot="{Boolean}false"
+    version="4.0.0">
+    <thumbnail.png/>
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/weretail/clientlibs"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/weretail/components"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/weretail/gui"
+            rules="[]"/>
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/weretail/i18n"
+            rules="[]"/>
+        <f4
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/public/weretail"
+            rules="[]"/>
+        <f5
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/var/commerce/payment-methods/we-retail"
+            rules="[]"/>
+        <f6
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/var/commerce/shipping-methods/we-retail"
+            rules="[]"/>
+        <f7
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/msm/we-retail/blueprintconfigs/weretail"
+            rules="[]"/>
+    </filter>
+</jcr:root>

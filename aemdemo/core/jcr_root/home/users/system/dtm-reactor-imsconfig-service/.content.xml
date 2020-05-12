@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="f9e44111-5909-3886-a4de-01ec8d0b7bbc"
+    rep:authorizableId="dtm-reactor-imsconfig-service"
+    rep:principalName="dtm-reactor-imsconfig-service"/>

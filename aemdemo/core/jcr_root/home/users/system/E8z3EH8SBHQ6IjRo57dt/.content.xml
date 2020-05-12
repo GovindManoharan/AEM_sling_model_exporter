@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="c6d2d286-0304-3007-8ce6-cf3578e17755"
+    rep:authorizableId="dam-activitywriter-service"
+    rep:principalName="dam-activitywriter-service"/>

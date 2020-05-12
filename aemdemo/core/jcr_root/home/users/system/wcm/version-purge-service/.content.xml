@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="d6e74d05-b3aa-3306-8c6f-d39ee163c507"
+    rep:authorizableId="version-purge-service"
+    rep:principalName="version-purge-service"/>

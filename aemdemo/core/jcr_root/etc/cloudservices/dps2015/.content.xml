@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-05-05T16:20:56.906-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="Adobe Experience Manager Mobile On-demand Services Account Configurations"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Adobe Experience Manager Mobile On-demand Services"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        category="creativecloud"
+        connectedWhen="dpsDeviceToken"
+        description="Adobe® Experience Manager Mobile On-demand Services empowers designers and marketers to continuously publish beautiful, engaging mobile experiences that drive measurable business impact."
+        descriptionExtended="For organizations that need to drive deep connections with their audiences, Adobe® Experience Manager Mobile On-demand Services empowers designers and marketers to easily and continuously publish beautiful, engaging mobile experiences with measurable business impact across devices."
+        ranking="50"
+        serviceAdminUrl="https://publish.adobe.com/admin/index.html"
+        serviceUrl="http://www.adobe.com/products/digital-publishing-solution.html"
+        serviceUrlLabel="Adobe Experience Manager Mobile On-demand Services"
+        showOnDashboard="{Boolean}true"
+        thumbnailPath="/libs/mobileapps/dps/templates/dps-cloudservice-config/thumbnail.png"
+        visible="{Boolean}true"/>
+</jcr:root>

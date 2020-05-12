@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="a5df5d51-8204-3553-9da7-89f2adf2fecf"
+    rep:authorizableId="community-community-rqlgn-desert-hiking-rtpso-members"
+    rep:members="{WeakReference}[8c81721e-3d98-35fb-bcd4-3d7cb559386e,75dffaf7-d967-370a-ad0e-ed423140531c,77241908-e1d0-36aa-82dc-e2634a3837fa,99edb110-eff5-3f0a-9616-801fccfd58a2]"
+    rep:principalName="community-community-rqlgn-desert-hiking-rtpso-members"
+    liveCopyPath="/content/we-retail/us/en/community/groups/hiking/groups/desert-hiking">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        givenName="Community Community Desert Hiking Rtpso Members"/>
+</jcr:root>

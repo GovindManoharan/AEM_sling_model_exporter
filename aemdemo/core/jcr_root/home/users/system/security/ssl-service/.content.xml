@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="9c4f89c2-3aa5-337b-ba1c-8a349fc45211"
+    rep:authorizableId="ssl-service"
+    rep:principalName="ssl-service"/>

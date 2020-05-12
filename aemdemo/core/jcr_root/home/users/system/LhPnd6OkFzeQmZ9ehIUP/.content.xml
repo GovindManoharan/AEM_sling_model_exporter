@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:primaryType="rep:SystemUser"
+    jcr:uuid="bd2c399e-1a6a-3842-81be-06ac9db629b4"
+    rep:authorizableId="fd-service"
+    rep:principalName="fd-service"/>

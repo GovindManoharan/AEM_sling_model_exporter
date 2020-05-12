@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="090df2fb-8d3c-32ae-86f1-4bbd09628b84"
+    rep:authorizableId="campaign-remote"
+    rep:principalName="campaign-remote"/>

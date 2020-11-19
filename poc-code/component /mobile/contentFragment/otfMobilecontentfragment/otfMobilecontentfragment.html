@@ -1,0 +1,13 @@
+<h2>content fragment. Edit here </h2>
+
+<sly data-sly-use.model="com.otf.core.models.OTFContentFragmentModel">
+    ${model.fragmentPath}
+    <ul data-sly-list.key="${model.fragmentValues}">
+        <li><p>${key}:</p>
+            ${model.fragmentValues[key]}
+        </li>
+
+    </ul>
+
+</sly>
+
